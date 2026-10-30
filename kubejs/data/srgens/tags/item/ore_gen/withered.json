@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#srgen:ore_gen/draconic_rare",
+    "#srgen:ore_gen/draconic"
+  ]
+}

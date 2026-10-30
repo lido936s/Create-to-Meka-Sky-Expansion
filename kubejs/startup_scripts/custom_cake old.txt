@@ -1,0 +1,8 @@
+StartupEvents.registry('block', event => {
+    // En 1.21.1, on ne met pas de type en second paramètre pour un bloc standard
+    event.create('custom_lost_city_cake')
+        .displayName('Gâteau des Cités Perdues')
+        .hardness(0.5)
+        .soundType('wool')
+        .box(1, 0, 1, 15, 8, 15) // Lui donne la taille plate d'un gâteau
+})

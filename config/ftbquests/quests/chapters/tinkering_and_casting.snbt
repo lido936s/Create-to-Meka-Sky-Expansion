@@ -1,0 +1,143 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "tinkering_and_casting"
+	group: "581C2C2411192ACC"
+	id: "0F9F15F281635C4A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3E35A382C6C69559"]
+			id: "29E841EBF65EFE6C"
+			rewards: [
+				{
+					id: "7E28E508A48C61D9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "180BE9678645F97D"
+					item: {
+						count: 1
+						id: "ftbstuff:stone_cobblestone_generator"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5L
+					id: "065F0B10AB4907BF"
+					item: { count: 1, id: "productivemetalworks:liquid_heating_coil" }
+					type: "item"
+				}
+				{
+					id: "5E007B7244694585"
+					item: { count: 1, id: "productivemetalworks:black_foundry_controller" }
+					type: "item"
+				}
+				{
+					id: "16579FC00CD7F8A9"
+					item: { count: 1, id: "productivemetalworks:casting_table" }
+					type: "item"
+				}
+				{
+					id: "3AF30A264CF9767C"
+					item: { count: 1, id: "productivemetalworks:foundry_tap" }
+					type: "item"
+				}
+				{
+					id: "203D07A430393745"
+					item: { count: 1, id: "productivemetalworks:black_foundry_drain" }
+					type: "item"
+				}
+				{
+					id: "13285EF828E529D8"
+					item: { count: 1, id: "productivemetalworks:casting_basin" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "5129CCDD05C9645B"
+					item: { count: 1, id: "productivemetalworks:black_fire_bricks" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E7A8F854C9E2956"]
+			id: "3E35A382C6C69559"
+			rewards: [
+				{
+					id: "7CF629289BCB435F"
+					item: {
+						count: 1
+						id: "minecraft:furnace"
+					}
+					type: "item"
+				}
+				{
+					id: "31131768B3864B71"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "5BB361539E13CBC2"
+					item: { count: 1, id: "minecraft:charcoal" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "2AB8B701D1CE67FA"
+					item: { count: 1, id: "productivemetalworks:fire_brick" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F5FF0508B882CE4"]
+			id: "4E7A8F854C9E2956"
+			tasks: [{
+				count: 32L
+				id: "7CB1BD31EA1EE676"
+				item: { count: 1, id: "productivemetalworks:fire_clay" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19B65F30D66F71AF"]
+			id: "7F5FF0508B882CE4"
+			rewards: [
+				{
+					id: "3675D275885C35EC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1C31EB6CECC5C0CE"
+					item: {
+						count: 1
+						id: "exdeorum:porcelain_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45A6BB69503829CB"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+	]
+}

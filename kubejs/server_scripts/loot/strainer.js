@@ -1,0 +1,67 @@
+// 1. Déclaration de vos données de butin réelles
+const customStrainerLoot = [
+    { 
+        pool_name: "stick_bamboo", 
+        entries: [ 
+            { id: "minecraft:stick", weight: 60 }, 
+            { id: "minecraft:bamboo", weight: 40 } 
+        ] 
+    },
+    { 
+        pool_name: "leaves", 
+        entries: [ 
+            { id: "minecraft:oak_leaves", weight: 30 }, 
+            { id: "minecraft:spruce_leaves", weight: 10 }, 
+            { id: "minecraft:birch_leaves", weight: 10 }, 
+            { id: "minecraft:jungle_leaves", weight: 10 }, 
+            { id: "minecraft:acacia_leaves", weight: 10 }, 
+            { id: "minecraft:dark_oak_leaves", weight: 10 }, 
+            { id: "minecraft:mangrove_leaves", weight: 10 }, 
+            { id: "minecraft:cherry_leaves", weight: 10 } 
+        ] 
+    },
+    { 
+        pool_name: "seed", 
+        entries: [ 
+            { id: "minecraft:wheat_seeds", weight: 40 }, 
+            { id: "minecraft:beetroot_seeds", weight: 25 }, 
+            { id: "minecraft:melon_seeds", weight: 15 }, 
+            { id: "minecraft:pumpkin_seeds", weight: 15 }, 
+            { id: "minecraft:torchflower_seeds", weight: 3 }, 
+            { id: "minecraft:pitcher_pod", weight: 2 }, 
+            { id: "immersiveengineering:seed", weight: 2 } 
+        ] 
+    },
+    { 
+        pool_name: "sapling", 
+        entries: [ 
+            { id: "minecraft:oak_sapling", weight: 65 }, 
+            { id: "minecraft:spruce_sapling", weight: 5 }, 
+            { id: "minecraft:birch_sapling", weight: 5 }, 
+            { id: "minecraft:jungle_sapling", weight: 5 }, 
+            { id: "minecraft:acacia_sapling", weight: 5 }, 
+            { id: "minecraft:dark_oak_sapling", weight: 5 }, 
+            { id: "minecraft:cherry_sapling", weight: 5 }, 
+            { id: "minecraft:mangrove_propagule", weight: 5 } 
+        ] 
+    }
+];
+
+// 2. Événement officiel LootJS pour la 1.21.1
+LootJS.lootTables(event => {
+    
+    // Création de la table personnalisée (elle naît complètement vide, pas besoin de clear)
+    const customTable = event.create("ftb:custom/water_strainer_test");
+    
+    // 3. Boucle à travers notre constante pour générer chaque pool
+    customStrainerLoot.forEach(group => {
+        customTable.createPool(pool => {
+            pool.rolls(1); // 1 tirage par catégorie (pool)
+            
+            // Injection de vos données réelles avec la syntaxe 1.21.1
+            group.entries.forEach(entry => {
+                pool.addEntry(LootEntry.of(entry.id).withWeight(entry.weight));
+            });
+        });
+    });
+});

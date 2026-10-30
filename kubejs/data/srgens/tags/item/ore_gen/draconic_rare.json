@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:netherite_scrap",
+    "minecraft:diamond",
+    "minecraft:amethyst_shard"
+  ]
+}

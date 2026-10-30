@@ -1,0 +1,18 @@
+// Compost colors for clayworks. You may add your own colors, change existing ones, or remove colors that aren't needed.
+black_stained_glass_door, #232323
+blue_stained_glass_door, #476bfe
+brown_stained_glass_door, #916b47
+cyan_stained_glass_door, #6bb5da
+glass_door, #ffffff
+gray_stained_glass_door, #6b6b6b
+green_stained_glass_door, #91b547
+light_blue_stained_glass_door, #91daff
+light_gray_stained_glass_door, #dadada
+lime_stained_glass_door, #b5ff23
+magenta_stained_glass_door, #fe6bff
+orange_stained_glass_door, #ffb547
+pink_stained_glass_door, #ffb5ea
+purple_stained_glass_door, #b55afe
+red_stained_glass_door, #da4747
+white_stained_glass_door, #ffffff
+yellow_stained_glass_door, #ffff47

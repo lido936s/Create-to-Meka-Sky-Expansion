@@ -1,0 +1,190 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "food"
+	group: "581C2C2411192ACC"
+	id: "73C8D82682964D54"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["531F346AC1664513"]
+			id: "5A08410768858ADE"
+			rewards: [
+				{
+					id: "7AFE965B07BE7FC8"
+					item: {
+						count: 1
+						id: "minecraft:dirt"
+					}
+					type: "item"
+				}
+				{
+					id: "51777E15BB4D56F2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4C85C6CED61ECB23"
+				item: { count: 1, id: "minecraft:stone_hoe" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A08410768858ADE"]
+			id: "034534CD2B9A82CA"
+			tasks: [{
+				id: "50ADF06C07199E9A"
+				item: { count: 1, id: "minecraft:smoker" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A08410768858ADE"]
+			id: "6848927339F1B228"
+			rewards: [{
+				id: "3C58AB17449C5069"
+				item: {
+					count: 1
+					id: "minecraft:wheat_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "5CD00C6D144D8ED5"
+				item: { count: 1, id: "minecraft:kelp" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"034534CD2B9A82CA"
+				"0AC3AFC4F703183D"
+			]
+			id: "1C810625D3713C1F"
+			tasks: [{
+				count: 20L
+				id: "1C9C49A731CD4C88"
+				item: { count: 1, id: "minecraft:dried_kelp" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6848927339F1B228"]
+			id: "1EC1791A4ED5C676"
+			tasks: [
+				{
+					id: "5B9036F4CF139D42"
+					item: { count: 1, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+				{
+					id: "01425F74CB0230E6"
+					item: { count: 1, id: "supplementaries:flax_seeds" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A08410768858ADE"]
+			id: "1C1E3DDD3FCF5477"
+			tasks: [{
+				id: "549A87153AF30AA0"
+				item: { count: 1, id: "exdeorum:stone_watering_can" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "531F346AC1664513"
+			tasks: [{
+				id: "753D8F902D0FFF58"
+				item: { count: 1, id: "immersiveengineering:seed" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "0AC3AFC4F703183D"
+			rewards: [{
+				id: "0914634912C374C5"
+				item: {
+					count: 1
+					id: "minecraft:bowl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60C3549597896A62"
+				item: { count: 1, id: "srgens:basic_fisher" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5A08410768858ADE"]
+			id: "68DF23960F9A9408"
+			rewards: [
+				{
+					id: "757E04BA6BF48B99"
+					item: {
+						count: 1
+						id: "woodenbucket:wooden_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "71F7FA3C7EF67A2A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "29DAC54F03F4616C"
+					type: "checkmark"
+				}
+				{
+					id: "5BED8D436AB09E32"
+					item: { count: 1, id: "minecraft:stone_hoe" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0AC3AFC4F703183D"]
+			id: "411810251CC821B2"
+			tasks: [
+				{
+					id: "066F824F03245592"
+					item: { count: 1, id: "havenanimalseeds:chicken_seed" }
+					type: "item"
+				}
+				{
+					id: "7E01BE06F9E94F42"
+					item: { count: 1, id: "havenanimalseeds:sheep_seed" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.5d
+		}
+	]
+}

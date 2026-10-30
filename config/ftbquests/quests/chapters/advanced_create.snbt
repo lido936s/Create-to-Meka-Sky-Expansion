@@ -1,0 +1,442 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "advanced_create"
+	group: "5E562E8B2D716895"
+	id: "2118682AEDCBC835"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4817842D50AFE962"]
+			id: "391A3349876A75BD"
+			tasks: [{
+				id: "6483EAFB88B161A5"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E04AB67D71303F5"]
+			id: "5A1EC6384E679318"
+			rewards: [
+				{
+					id: "09A1D7D230D22776"
+					item: {
+						count: 1
+						id: "minecraft:andesite"
+					}
+					type: "item"
+				}
+				{
+					id: "769B64A8241F2089"
+					item: {
+						count: 1
+						id: "minecraft:cauldron"
+					}
+					type: "item"
+				}
+				{
+					id: "3B9F7DE1CF4D8BC6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7F7FE28CA99661D6"
+				item: { count: 1, id: "create_mechanical_extruder:mechanical_extruder" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"391A3349876A75BD"
+				"2194C13A7EC7A3A1"
+			]
+			id: "6E04AB67D71303F5"
+			rewards: [
+				{
+					count: 4
+					id: "61938D78EC263401"
+					item: {
+						count: 1
+						id: "create:andesite_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "74D44A19091E09BA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1979A82A8799F76D"
+				item: { count: 1, id: "create:copper_casing" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["414E48C86582D086"]
+			id: "65C0C2F0715997A7"
+			rewards: [
+				{
+					id: "5A5EEE0145268F42"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4C61636F37F8AC60"
+					item: {
+						count: 1
+						id: "create:mechanical_pump"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "58A81BA8D553F349"
+				item: { count: 1, id: "pipez:fluid_pipe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E04AB67D71303F5"]
+			id: "414E48C86582D086"
+			rewards: [
+				{
+					id: "3919BB30AB0A8241"
+					item: {
+						components: {
+							"ftbquests:missing_item": "tconstruct:seared_melter"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "22DDFE66CEEE9C26"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "71ECC2190E00824A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "4147AB51AC52C882"
+					item: { count: 1, id: "create:belt_connector" }
+					type: "item"
+				}
+				{
+					id: "4DE97DA596A11AE5"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+				{
+					id: "608CA017977C53C3"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "4817842D50AFE962"
+			rewards: [
+				{
+					id: "076A48EB3D380CC8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3A3340B85ED3A73E"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "14EDB7E719748175"
+					type: "checkmark"
+				}
+				{
+					count: 10L
+					id: "784C416DB3F6CA47"
+					item: { count: 1, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E04AB67D71303F5"]
+			id: "27CC3F490FCABA95"
+			rewards: [
+				{
+					id: "5DAF9632C6580C73"
+					item: {
+						count: 1
+						id: "minecraft:furnace"
+					}
+					type: "item"
+				}
+				{
+					id: "0BC0C365FA185880"
+					item: {
+						count: 1
+						id: "minecraft:hopper"
+					}
+					type: "item"
+				}
+				{
+					id: "490B222FB67AB674"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "66CBA6A0987CB654"
+				item: { count: 1, id: "minecraft:blast_furnace" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6E04AB67D71303F5"]
+			id: "0E4570EBF466BF93"
+			rewards: [
+				{
+					id: "2DC406A6443BDDB0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6DE477EB76326B8A"
+					item: {
+						components: {
+							"ftbquests:missing_item": "srgen:basic_ore_gen"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 24L
+					id: "45090D6BC018FE3A"
+					item: { count: 1, id: "create:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "6BF0C0CF06D3D77E"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "084B25D14D9632E2"
+					item: { count: 1, id: "create:fluid_tank" }
+					type: "item"
+				}
+				{
+					id: "460C75DF1EFB8035"
+					item: { count: 1, id: "cookingforblockheads:sink" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7D3AC1152F803AD7"
+					item: { count: 1, id: "srgens:basic_ore_gen" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "62502601420906AC"
+					item: { count: 1, id: "create:steam_engine" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6F1AABD95B76FB1F"
+					item: { count: 1, id: "createlowheated:basic_burner" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"65C0C2F0715997A7"
+				"46A9DF01E11B890E"
+			]
+			id: "233391855CC893C8"
+			tasks: [{
+				count: 9L
+				id: "022ECC14C9C6587C"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5A1EC6384E679318"]
+			id: "3110CBA47B90313C"
+			rewards: [
+				{
+					id: "28FB7158215D5262"
+					item: {
+						count: 1
+						id: "ftbstuff:stone_cobblestone_generator"
+					}
+					type: "item"
+				}
+				{
+					id: "620A23BB27E8C58E"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "537725FD7E15C144"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "388CC96C3B1EB25F"
+				item: { count: 1, id: "ftbstuff:diamond_cobblestone_generator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["233391855CC893C8"]
+			id: "6B06CB58D554685F"
+			tasks: [{
+				count: 32L
+				id: "6290FF64C1F3605C"
+				item: { count: 1, id: "pipez:item_pipe" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["414E48C86582D086"]
+			id: "70EAE90B75166E80"
+			tasks: [{
+				id: "4489DFDDF1D8742C"
+				item: { count: 1, id: "create:brass_hand" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["414E48C86582D086"]
+			id: "321D88B18719A3C9"
+			tasks: [{
+				id: "0F92F731A58F937A"
+				item: { count: 1, id: "create:empty_blaze_burner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "46A9DF01E11B890E"
+			tasks: [{
+				id: "76014C35A45E56C8"
+				item: { count: 1, id: "create:mechanical_arm" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1DF55C46329A0BE6"]
+			id: "2194C13A7EC7A3A1"
+			tasks: [{
+				id: "35AC05D0E4C47425"
+				item: { count: 1, id: "kubejs:sealed_mechanism" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "1DF55C46329A0BE6"
+			tasks: [{
+				id: "6F485595131556E1"
+				item: { count: 1, id: "kubejs:copper_machine" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["233391855CC893C8"]
+			id: "7001B12629193D60"
+			tasks: [{
+				id: "7010E131FA650BF8"
+				item: { count: 1, id: "create:brass_casing" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7001B12629193D60"]
+			id: "4FEB428C4082204C"
+			tasks: [{
+				id: "2A345B57A805744C"
+				item: { count: 1, id: "create:rotation_speed_controller" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["321D88B18719A3C9"]
+			id: "4DEDFCE3332B84FC"
+			tasks: [{
+				id: "2AD1CAB9C1D82B89"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+}

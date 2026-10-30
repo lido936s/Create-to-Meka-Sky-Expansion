@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "create:raw_zinc",
+      "required": false
+    },
+    {
+      "id": "mekanism:raw_tin",
+      "required": false
+    },
+    "minecraft:coal",
+    "minecraft:raw_copper"
+  ]
+}

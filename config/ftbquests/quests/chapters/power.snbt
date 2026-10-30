@@ -1,0 +1,65 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power"
+	group: "2C73944DD8D5E480"
+	id: "2506730AAE57FF06"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["721C9CACCA22A867"]
+			id: "597F9081790BA74A"
+			tasks: [{
+				id: "1153F4CF5F2BA05C"
+				item: { count: 1, id: "create_better_motors:brass_alternator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2B3D0BAD7D1FC989"]
+			id: "721C9CACCA22A867"
+			tasks: [{
+				id: "73FA3C05357F13FF"
+				item: { count: 1, id: "create_better_motors:copper_alternator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			id: "674BFA211C90154F"
+			tasks: [{
+				id: "5E5E137B8ABCD3D3"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["674BFA211C90154F"]
+			id: "2B3D0BAD7D1FC989"
+			tasks: [{
+				id: "7BC543794A068E23"
+				item: { count: 1, id: "create_better_motors:andesite_alternator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["597F9081790BA74A"]
+			id: "0A3601BCB44E8865"
+			tasks: [{
+				id: "69D56F905BA3315A"
+				item: { count: 1, id: "createaddition:modular_accumulator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.0d
+		}
+	]
+}

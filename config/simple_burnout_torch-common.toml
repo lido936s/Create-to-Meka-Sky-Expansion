@@ -1,0 +1,43 @@
+#===================================================
+# Simple Burnout Torch Configuration
+#
+# This file contains gameplay settings for the mod.
+# You can safely edit these values or reset them by
+# deleting the file and letting it regenerate.
+#
+#
+# This mod replaces vanilla torches with burnout versions.
+# The list of allowed blocks is defined below.  These blocks
+# are allowed to be placed as light sources along side
+# minecraft vanilla torches which are replaced by burnout
+# versions.
+#
+# The list of disallowed blocks prevents those blocks from
+# being placed as light sources in the dimensions configured.
+#
+#===================================================
+#
+#
+#A list of dimensions where Burnout Torch is forced. Example: dimension_expansion:deep_beneath, theupsidedown:upside_down
+dimensions = ["dimension_expansion:deep_beneath", "theupsidedown:upside_down"]
+#Per-tick chance that a Burnable Torch will extinguish. Range: 0.0 (never) to 1.0 (always). Default: 0.1 (10%).
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+extinguishChance = 0.1
+#Light level for Burnable Torch (1–15). Default: 8
+# Default: 8
+# Range: 1 ~ 15
+torchLightLevel = 8
+#Light level for Extinguished Torch (0–15). Default: 0
+# Default: 0
+# Range: 0 ~ 15
+extinguishedTorchLightLevel = 0
+#If true, items used to relight torches (e.g. Flint & Steel, Fire Charge, Blaze Rod, etc.)
+#will be consumed or damaged when used.
+#If false, relighting items will not be consumed or damaged.
+consumeRelighters = true
+#Block IDs of light sources that can be placed alongside Burnable Torch.
+#Vanilla Torches must be listed here as they are replaced with the Burnout Torch.
+allowedBlocks = ["minecraft:torch", "minecraft:wall_torch"]
+#Block IDs that are explicitly denied (cannot be placed as light sources).
+deniedBlocks = ["amendments:wall_lantern", "torchmaster:feral_flare_lantern", "torchmaster:megatorch", "actuallyadditions:tiny_torch"]

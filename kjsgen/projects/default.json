@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "name": "default",
+  "defaultTargetFile": "entangled.js",
+  "exportComments": true,
+  "reloadOnExport": false,
+  "recipes": [
+    {
+      "uid": "6bb9d397-cdd2-408e-9df6-d37b32523dc3",
+      "type": "kjsgen:shaped",
+      "targetFile": "entangled.js",
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:ender_pearl"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:obsidian"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "minecraft:ender_pearl"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:obsidian"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:obsidian"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "minecraft:ender_pearl"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "minecraft:obsidian"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "minecraft:ender_pearl"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "entangled:block"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "mekanism:quantum_entangloporter"
+        }
+      },
+      "params": {}
+    }
+  ],
+  "removals": [
+    {
+      "uid": "16eac144-c202-4376-82ca-5df86dff7600",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "telepastries:nether_cake"
+    }
+  ]
+}

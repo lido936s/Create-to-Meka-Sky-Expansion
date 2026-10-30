@@ -1,0 +1,64 @@
+{
+	icon: {
+		id: "create:cogwheel"
+	}
+	id: "0322FCBE5E2F51F1"
+	loot_crate: {
+		color: 8421504
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: ""
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 8
+			id: "4BBC381BEBEE9596"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+			weight: 50.0f
+		}
+		{
+			count: 4
+			id: "2A7E6CA9BFF89946"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+			weight: 40.0f
+		}
+		{
+			count: 2
+			id: "634EC9BB7129888A"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+			weight: 30.0f
+		}
+		{
+			count: 6
+			id: "61BBBE6C43E7570B"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "3CCE1D5B696EBC72"
+			item: {
+				count: 1
+				id: "create:water_wheel"
+			}
+			weight: 10.0f
+		}
+	]
+	use_title: true
+}

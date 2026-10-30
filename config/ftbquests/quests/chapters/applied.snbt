@@ -1,0 +1,359 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied"
+	group: "2C73944DD8D5E480"
+	id: "2514A797E7C8DE13"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["39A90889C25B440D"]
+			id: "33EF633E5A502802"
+			rewards: [
+				{
+					id: "74AF62D9653303D8"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "004505AB503B2F02"
+					item: {
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7E4EF518275DDC78"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+				{
+					id: "59F743E55B6AAFB9"
+					item: { count: 1, id: "ae2:certus_quartz_dust" }
+					type: "item"
+				}
+				{
+					id: "473235DB8AA5D363"
+					item: { count: 1, id: "minecraft:glowstone_dust" }
+					type: "item"
+				}
+				{
+					id: "539DA6DC00AA5998"
+					item: { count: 1, id: "ae2:silicon" }
+					type: "item"
+				}
+				{
+					id: "3565192EA31C3E74"
+					item: { count: 1, id: "minecraft:redstone" }
+					type: "item"
+				}
+			]
+			x: -20.0d
+			y: -0.5d
+		}
+		{
+			id: "2806C8F197C624A9"
+			tasks: [{
+				id: "1ED8B78E2EDBB71E"
+				item: { count: 1, id: "ae2:charger" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2806C8F197C624A9"]
+			id: "7A5A9793EFEE06AB"
+			tasks: [{
+				id: "75F8B1693FB1678B"
+				item: { count: 1, id: "extendedae:ex_charger" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7A5A9793EFEE06AB"
+				"43264EC705908AA0"
+			]
+			id: "797EC015EA55CC67"
+			tasks: [{
+				id: "6382A4C0E58629ED"
+				item: { count: 1, id: "advanced_ae:reaction_chamber" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["776E8EA98D33416F"]
+			id: "39A90889C25B440D"
+			rewards: [
+				{
+					id: "46F02F99B8F620A1"
+					item: {
+						components: {
+							"ftbquests:missing_item": "cobblefordays:tier_3"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "2F9B7EE039B6A478"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "7DE18C70A5B84206"
+					item: { count: 1, id: "ae2:nether_quartz_wrench" }
+					type: "item"
+				}
+				{
+					id: "456ADF03E5C4B3B9"
+					item: { count: 1, id: "ae2:certus_quartz_wrench" }
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B55C93C85C275D8"]
+			id: "43264EC705908AA0"
+			rewards: [
+				{
+					id: "2C3A4C769764E755"
+					item: {
+						count: 1
+						id: "ae2:damaged_budding_quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "50B752405D26832D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0E79EA3E2EE531BF"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33EF633E5A502802"]
+			id: "2B55C93C85C275D8"
+			rewards: [
+				{
+					id: "144EFD7CDF5F92DD"
+					item: {
+						count: 1
+						id: "extendedcrafting:basic_table"
+					}
+					type: "item"
+				}
+				{
+					id: "330085722270C316"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4178BF390C10D2C7"
+				item: { count: 1, id: "extendedcrafting:advanced_auto_table" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33EF633E5A502802"]
+			id: "7FCF3FBCE2FBF406"
+			tasks: [{
+				id: "669B0599754DCCA7"
+				item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: -19.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2B55C93C85C275D8"]
+			id: "216D14084CDD2EE7"
+			rewards: [{
+				id: "7BFC916A35681B22"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5AA532E4214E00DD"
+				item: { count: 1, id: "appliedcreate:brass_pattern_provider" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"216D14084CDD2EE7"
+				"43264EC705908AA0"
+				"3E625F88EC2F8481"
+			]
+			id: "5C4080AD94884621"
+			rewards: [
+				{
+					id: "6E09B2FAC11A1EFA"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+				{
+					id: "5EA7841D0E3C9250"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "022E61F6A73D76D8"
+					item: {
+						count: 1
+						id: "srgens:refined_ore_gen"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D4B6AF9446393DF"
+				item: { count: 1, id: "create:refined_radiance" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["25D1B8104B49DFB1"]
+			id: "776E8EA98D33416F"
+			rewards: [{
+				id: "238950E56041B867"
+				item: {
+					count: 1
+					id: "ae2:guide"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "10856AC916DF6681"
+					type: "checkmark"
+				}
+				{
+					id: "65CD987759867866"
+					item: { count: 1, id: "srgens:blazing_ore_gen" }
+					type: "item"
+				}
+			]
+			x: -26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["488008DA839E7303"]
+			id: "7B935D9E14A82F45"
+			rewards: [
+				{
+					id: "40B21870013F5AFE"
+					item: {
+						count: 1
+						id: "ftbstuff:gold_cobblestone_generator"
+					}
+					type: "item"
+				}
+				{
+					id: "5B9DED9B22267220"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0401DB2A4722367B"
+					item: {
+						count: 1
+						id: "mekanism:steel_casing"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76D068ADEF198173"
+				item: { count: 1, id: "wa_ender_quarry:ender_quarry" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			id: "3E625F88EC2F8481"
+			rewards: [{
+				id: "067327FA3A380F4A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5986D26C1201AA40"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7B935D9E14A82F45"]
+			id: "007F6DF5B2D6857C"
+			rewards: [
+				{
+					id: "6F957ACBA596D755"
+					item: {
+						count: 1
+						id: "srgens:refined_ore_gen"
+					}
+					type: "item"
+				}
+				{
+					id: "1A94368A545A9A97"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "6FBF0257B57C5865"
+				item: { count: 1, id: "kubejs:andesite_cell" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["797EC015EA55CC67"]
+			id: "488008DA839E7303"
+			tasks: [{
+				id: "152A228554192384"
+				structure: "the_lost_city:factory"
+				type: "structure"
+			}]
+			x: -13.5d
+			y: -2.0d
+		}
+	]
+}

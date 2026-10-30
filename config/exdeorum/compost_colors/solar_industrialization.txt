@@ -1,0 +1,20 @@
+// Compost colors for solar_industrialization. You may add your own colors, change existing ones, or remove colors that aren't needed.
+advanced_energy_upgrade, #b8dd8e
+advanced_solar_filter, #b9d394
+basic_energy_upgrade, #eddc8e
+basic_solar_filter, #e1d296
+bronze_soft_brush, #ffffe6
+electric_soft_brush, #fff1b6
+ev_solar_component, #8664a8
+hot_tempered_glass, #ffa85c
+hv_solar_component, #619648
+lv_solar_component, #4a648a
+mv_solar_component, #9a6947
+panel_cleaner, #96a0d0
+polyethylene_sheet, #e3e0e0
+process_water_bucket, #b5a798
+soft_brush, #faf4e7
+sv_solar_component, #af6464
+tempered_glass, #89fbff
+turbo_energy_upgrade, #e0a1a1
+turbo_solar_filter, #d7a5a2

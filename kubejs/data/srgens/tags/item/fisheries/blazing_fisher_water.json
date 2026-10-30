@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#srgen:fisheries/refined_fisher",
+    "minecraft:gold_nugget",
+    "minecraft:pufferfish"
+  ]
+}

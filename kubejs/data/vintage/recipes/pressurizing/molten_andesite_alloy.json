@@ -1,0 +1,22 @@
+{
+  "type": "vintageimprovements:pressurizing",
+  "ingredients": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 25
+    }
+  ],
+  "secondaryFluidInput": [
+    {
+      "fluid": "kubejs:molten_porcelain_clay",
+      "amount": 75
+    }
+  ],
+  "results": [
+    {
+      "fluid": "kubejs:molten_andesite_alloy",
+      "amount": 100
+    }
+  ],
+  "processingTime": 45
+}

@@ -1,0 +1,5 @@
+// Compost colors for dimension_expansion. You may add your own colors, change existing ones, or remove colors that aren't needed.
+ender_cream, #f4ffff
+ender_crystal, #a5d9cf
+ender_crystal_shard, #ffffff
+ender_gem, #abf5e8

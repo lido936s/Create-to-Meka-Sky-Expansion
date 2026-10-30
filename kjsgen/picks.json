@@ -1,0 +1,42 @@
+{
+  "recent": {
+    "ITEM": [
+      "mekanism:quantum_entangloporter",
+      "telepastries:end_cake",
+      "telepastries:nether_cake",
+      "createaddition:cake_base_baked",
+      "telepastries:lost_city_cake",
+      "expandeddelight:cheese_wheel",
+      "minecraft:clay",
+      "exdeorum:porcelain_clay_ball",
+      "exdeorum:dust",
+      "minecraft:brick",
+      "modern_industrialization:brick_tiny_dust",
+      "minecraft:bricks",
+      "ironfurnaces:copper_furnace",
+      "modern_industrialization:bronze_plate",
+      "mekanism:alloy_infused",
+      "modern_industrialization:bronze_machine_casing",
+      "mekanism:steel_casing",
+      "minecraft:birch_fence"
+    ],
+    "ITEM_TAG": [
+      "c:storage_blocks/stick",
+      "minecraft:coals"
+    ],
+    "FLUID": [
+      "kubejs:end_cake_batter",
+      "kubejs:nether_cake_batter",
+      "kubejs:flowing_lost_cities_cake_batter",
+      "kubejs:cake_batter",
+      "kubejs:molten_porcelain_clay",
+      "productivemetalworks:molten_bronze",
+      "kubejs:molten_andesite_alloy",
+      "minecraft:lava_bucket",
+      "minecraft:lava",
+      "mechanical_botany:compost",
+      "mechanical_botany:flowing_compost"
+    ]
+  },
+  "favorites": {}
+}

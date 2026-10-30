@@ -1,0 +1,5 @@
+// Compost colors for mechanical_botany. You may add your own colors, change existing ones, or remove colors that aren't needed.
+compost, #734e1e
+compost_bucket, #a2947c
+molten_compost_bucket, #9a827f
+void_compost_bucket, #918297

@@ -1,0 +1,3 @@
+// Compost colors for create_ae_generator. You may add your own colors, change existing ones, or remove colors that aren't needed.
+copper_coil, #fc8962
+stator, #5a4d4b

@@ -1,0 +1,18 @@
+{
+	"type":"vintageimprovements:pressurizing",
+	"ingredients": [ 
+		{
+			"item": "minecraft:andesite"
+        },
+        {
+            "item": "exdeorum:porcelain_clay_ball"
+        }
+	],
+	"results": [
+		{
+			"item": "create:andesite_alloy",
+			"count": 4
+		}
+	],
+	"processingTime": 45
+}

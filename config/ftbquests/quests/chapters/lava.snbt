@@ -1,0 +1,85 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lava"
+	group: "5E562E8B2D716895"
+	id: "608645C7B90C13EF"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6E04AB67D71303F5"]
+			id: "254EE791B3508A63"
+			tasks: [{
+				id: "6E7954A8D92F9100"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["254EE791B3508A63"]
+			id: "4A9FB09F834F9020"
+			rewards: [{
+				id: "795303029AF8FF88"
+				item: {
+					count: 1
+					id: "minecraft:bucket"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "299B375347E8FF74"
+					item: { count: 1, id: "vintageimprovements:vacuum_chamber" }
+					type: "item"
+				}
+				{
+					id: "21EE5C1156AE1B74"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4A9FB09F834F9020"]
+			id: "3B7974D2C57AA544"
+			tasks: [{
+				id: "50CB8F00862D39DA"
+				item: { count: 1, id: "createaddition:tesla_coil" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3B7974D2C57AA544"]
+			id: "47AC875B7DBD1269"
+			rewards: [{
+				id: "718A185829B7BBD6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2EAC6F9A3C8B2173"
+				item: { count: 1, id: "minecraft:dripstone_block" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["47AC875B7DBD1269"]
+			id: "4C9E2A987E534764"
+			tasks: [{
+				id: "24621D805C6A95B2"
+				item: { count: 1, id: "minecraft:cauldron" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+	]
+}

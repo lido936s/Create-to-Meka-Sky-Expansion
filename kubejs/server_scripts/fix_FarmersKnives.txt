@@ -1,0 +1,16 @@
+ServerEvents.recipes(event => {
+
+    [
+        'farmersknives:obsidian_knife',
+        'farmersknives:steel_knife_mm',
+        'farmersknives:steel_knife_et',
+        'farmersknives:rose_knife',
+        'farmersknives:celestium_knife',
+        'farmersknives:end_gobber_knife',
+        'farmersknives:nether_ruby_knife',
+        'farmersknives:netherite_gold_knife'
+    ].forEach(id => {
+        event.remove({ output: id })
+    })
+
+})

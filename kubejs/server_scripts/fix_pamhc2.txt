@@ -1,0 +1,8 @@
+ServerEvents.recipes(event => {
+
+  // Supprime toutes les recettes du mod cassées
+  event.remove({ mod: 'pamhc2foodextended' })
+
+})
+
+

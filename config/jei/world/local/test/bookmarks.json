@@ -1,0 +1,23 @@
+[
+  {"version":2},
+  {"recipe":["extended_industrialization:/canning_machine/generated/emptying/minecraft/milk_bucket",{"item_outputs":[{"item":"minecraft:bucket","amount":1}],"fluid_outputs":[{"fluid":"minecraft:milk","amount":1000}],"eu":2,"duration":100,"item_inputs":[{"item":"minecraft:milk_bucket","amount":1}],"type":"extended_industrialization:canning_machine"}],"recipeType":"extended_industrialization:steel_canning_machine","bookmarkType":"RECIPE"},
+  {"recipe":"kubejs:kjs/exdeorum_crook","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"custom_cakes:end_cake_assembly","recipeType":"create:sequenced_assembly","bookmarkType":"RECIPE"},
+  {"recipe":"extendedae:cutter/mddyue_destroy","recipeType":"extendedae:circuit_cutter","bookmarkType":"RECIPE"},
+  {"recipe":"mekanism:crushing/honeycomb_from_block","recipeType":"mekanism:crushing","bookmarkType":"RECIPE"},
+  {"recipe":"modern_industrialization:electric_age/circuit/craft/quantum_circuit_asbl","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"immersiveengineering:crafting/capacitor_hv","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"immersiveengineering:coal_coke"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"create:kjs/modern_industrialization_bronze_machine_casing","recipeType":"create:sequenced_assembly","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"modern_industrialization:basic_machine_hull"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modern_industrialization:steel_machine_casing"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"create:kjs/mekanism_steel_casing","recipeType":"create:sequenced_assembly","bookmarkType":"RECIPE"},
+  {"recipe":"modern_industrialization:electric_age/machine/implosion_compressor_asbl","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"create_dimension:steamworks_realm"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:netherite_upgrade_smithing_template"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"undergarden:cloggrum_bucket","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"undergarden:utherium_growth"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"undergarden:utheric_shard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"undergarden:catalyst","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"createqol:compacting/superheated_lava","recipeType":"create:packing","bookmarkType":"RECIPE"}
+]

@@ -1,0 +1,217 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "advanced_resource_generator"
+	group: "5E562E8B2D716895"
+	id: "3DB593C6149F323D"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6910A1F173A1B63F"
+				"5A3CD53BC423F25D"
+				"1BA15BE11E0390EF"
+			]
+			id: "1EEB57CE332C412E"
+			rewards: [
+				{
+					id: "4077963401AB2831"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "6324A0306D02E6FD"
+					item: {
+						count: 1
+						id: "create:mechanical_drill"
+					}
+					type: "item"
+				}
+				{
+					id: "3E8D4B9F330138CE"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "42FDF2E6FFEE5A31"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+				{
+					id: "2A719CC0ACA2A689"
+					item: { count: 1, id: "create:precision_mechanism" }
+					type: "item"
+				}
+				{
+					id: "59AC3AE293D618BD"
+					item: { count: 1, id: "easy_villagers:iron_farm" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "6910A1F173A1B63F"
+			tasks: [{
+				id: "71E8B187580A679E"
+				item: { count: 1, id: "createsifter:sifter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1EEB57CE332C412E"]
+			id: "34BDD1B3546529FB"
+			rewards: [
+				{
+					id: "2871F858840FF939"
+					item: {
+						count: 1
+						id: "ftbstuff:iron_cobblestone_generator"
+					}
+					type: "item"
+				}
+				{
+					id: "695FA8B460190C1D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0B89FD6CDF7EAE22"
+					item: {
+						count: 1
+						id: "easy_villagers:villager"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2656FC541D7FB132"
+				item: { count: 1, id: "srgens:refined_ore_gen" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "5A3CD53BC423F25D"
+			rewards: [
+				{
+					id: "3A317EC88CE49F42"
+					item: {
+						count: 1
+						id: "exdeorum:oak_sieve"
+					}
+					type: "item"
+				}
+				{
+					id: "1AA0BF40D68B38B2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "57D4F5250CCCF0FE"
+				item: { count: 1, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6910A1F173A1B63F"
+				"5A3CD53BC423F25D"
+			]
+			id: "7D15E119F016496F"
+			tasks: [{
+				id: "5B0FA3288249CCC5"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "1BA15BE11E0390EF"
+			tasks: [{
+				id: "6AC4E68FDF512368"
+				item: { count: 1, id: "kubejs:brass_machine" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6910A1F173A1B63F"]
+			id: "4F2C736CCD250F47"
+			rewards: [{
+				id: "420124911D63CD75"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6EE28698813DB5AA"
+				item: { count: 1, id: "createsifter:brass_sifter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F2C736CCD250F47"]
+			id: "296ADC466D214503"
+			tasks: [{
+				id: "0B49E6B60FC520AD"
+				item: { count: 1, id: "exdeorum:mechanical_sieve" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1BA15BE11E0390EF"]
+			id: "74E48C999E614510"
+			rewards: [
+				{
+					id: "44FA7F73324E0919"
+					item: {
+						count: 1
+						id: "minecraft:furnace"
+					}
+					type: "item"
+				}
+				{
+					id: "4E83EB2125029567"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7CC3DBBB97032B9B"
+				item: { count: 1, id: "skyblock_resources:wooden_empty_generator" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34BDD1B3546529FB"]
+			id: "63200A2B2A5DB603"
+			tasks: [{
+				id: "31ADCBD1DDC7C52A"
+				item: { count: 1, id: "create_dimension:steamworks_realm" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mekanism:block_raw_lead",
+      "required": false
+    },
+    {
+      "id": "create:raw_zinc_block",
+      "required": false
+    },
+    "minecraft:netherite_scrap",
+    "minecraft:raw_iron_block",
+    "minecraft:coal_block",
+    {
+      "id": "mekanism:block_raw_osmium",
+      "required": false
+    },
+    {
+      "id": "mekanism:block_raw_tin",
+      "required": false
+    },
+    {
+      "id": "mekanism:block_raw_uranium",
+      "required": false
+    },
+    "minecraft:raw_gold_block",
+    "minecraft:raw_copper_block",
+    "minecraft:lapis_block"
+  ]
+}

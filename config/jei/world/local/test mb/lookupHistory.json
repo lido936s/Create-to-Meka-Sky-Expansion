@@ -1,0 +1,9 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"kubejs:mechanical_sawmill"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:fuel_input"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sawmill:sawmill"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:sawmill_output"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedstorage:sawmill/sawmill_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"custommachinery:custom_machine_item","components":"{\"custommachinery:machine\":\"custommachinery:kubejs/saw_burner\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:raw_gold",
+    "minecraft:lapis_lazuli",
+    {
+      "id": "mekanism:raw_uranium",
+      "required": false
+    },
+    "minecraft:diamond",
+    "minecraft:raw_iron",
+    "minecraft:coal",
+    {
+      "id": "create:raw_zinc",
+      "required": false
+    },
+    {
+      "id": "mekanism:raw_tin",
+      "required": false
+    },
+    "minecraft:quartz",
+    "minecraft:raw_copper",
+    {
+      "id": "mekanism:raw_osmium",
+      "required": false
+    },
+    "minecraft:amethyst_shard",
+    {
+      "id": "mekanism:raw_lead",
+      "required": false
+    }
+  ]
+}

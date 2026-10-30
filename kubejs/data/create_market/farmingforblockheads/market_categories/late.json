@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "translate": "category.create.late"
+  },
+  "icon": {
+    "id": "create:precision_mechanism"
+  },
+  "sortIndex": 30
+}

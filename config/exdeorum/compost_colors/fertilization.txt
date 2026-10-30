@@ -1,0 +1,4 @@
+// Compost colors for fertilization. You may add your own colors, change existing ones, or remove colors that aren't needed.
+compressed_bonemeal, #cfcfe3
+extremely_compressed_bonemeal, #cfcfe3
+florists_bonemeal, #d0ccb9

@@ -1,0 +1,4 @@
+// Compost colors for rubberworks. You may add your own colors, change existing ones, or remove colors that aren't needed.
+resin_bucket, #b69b72
+rubber, #504b43
+rubber_sheet, #5b574e

@@ -1,0 +1,11 @@
+ServerEvents.recipes(event => {
+
+    event.remove({
+        id: 'createqol:item_application/shadow_radiance_casing_from_logs'
+    })
+
+    event.remove({
+        id: 'createqol:item_application/shadow_radiance_casing_from_wood'
+    })
+
+})

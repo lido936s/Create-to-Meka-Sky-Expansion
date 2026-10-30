@@ -1,0 +1,4 @@
+#Enable debug output to server log.  debug.log
+debugEnabled = false
+#Disable / Disallow Fake Players (quarry, builder and miner blocks) use in the Deep Beneath?
+denyFakePlayerDeepBeneath = true

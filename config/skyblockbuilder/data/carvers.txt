@@ -1,0 +1,8 @@
+bettercaves:better_cave
+bettercaves:surface_cave
+dimension_expansion:void_carver
+minecraft:canyon
+minecraft:cave
+minecraft:cave_extra_underground
+minecraft:nether_cave
+undergarden:undergarden_cave

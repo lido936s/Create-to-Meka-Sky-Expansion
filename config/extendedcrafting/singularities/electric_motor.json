@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.electric_motor",
+  "colors": [
+    "F0E68C",
+    "D8C76E"
+  ],
+  "ingredient": {
+    "item": "createaddition:electric_motor"
+  },
+  "ingredient_count": 512,
+  "in_ultimate_singularity": false,
+  "enabled": true
+}

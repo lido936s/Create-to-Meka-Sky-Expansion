@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "create:raw_zinc_block",
+      "required": false
+    },
+    "minecraft:raw_iron",
+    "minecraft:coal_block",
+    {
+      "id": "mekanism:block_raw_tin",
+      "required": false
+    },
+    "minecraft:raw_copper_block",
+    {
+      "id": "mekanism:raw_lead",
+      "required": false
+    }
+  ]
+}

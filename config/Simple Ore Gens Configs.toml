@@ -1,0 +1,79 @@
+	[ore_gens.basic_ore_gen_settings]
+		#Seconds per operation. Default 10
+		secondsperoperation = 10.0
+		#Number of items per operation. Default 1
+		itemsperoperation = 1.0
+		#% Chance of rare item drops. Default: 25
+		rareitemdropchance = 25.0
+
+	[ore_gens.refined_ore_gen_settings]
+		#Seconds per operation. Default 8
+		secondsperoperation = 8.0
+		#Number of items per operation. Default 2
+		itemsperoperation = 2.0
+		#% Chance of rare item drops. Default: 25
+		rareitemdropchance = 25.0
+
+	[ore_gens.blazing_ore_gen_settings]
+		#Seconds per operation. Default 6
+		secondsperoperation = 6.0
+		#Number of items per operation. Default 4
+		itemsperoperation = 4.0
+		#% Chance of rare item drops. Default: 15
+		rareitemdropchance = 15.0
+
+	[ore_gens.draconic_ore_gen_settings]
+		#Seconds per operation. Default 4
+		secondsperoperation = 4.0
+		#Number of items per operation. Default 6
+		itemsperoperation = 6.0
+		#% Chance of rare item drops. Default: 10
+		rareitemdropchance = 10.0
+
+	[ore_gens.withered_ore_gen_settings]
+		#Seconds per operation. Default 2
+		secondsperoperation = 2.0
+		#Number of items per operation. Default 8
+		itemsperoperation = 8.0
+		#% Chance of rare item drops. Default: 10
+		rareitemdropchance = 10.0
+
+	[fishers.basic_fisher_settings]
+		#Seconds per operation. Default 10
+		secondsperoperation = 10.0
+		#Number of items per operation. Default 1
+		itemsperoperation = 1.0
+		#% Chance of rare item drops. Default: 25
+		rareitemdropchance = 25.0
+
+	[fishers.refined_fisher_settings]
+		#Seconds per operation. Default 8
+		secondsperoperation = 8.0
+		#Number of items per operation. Default 2
+		itemsperoperation = 2.0
+		#% Chance of rare item drops. Default: 25
+		rareitemdropchance = 25.0
+
+	[fishers.blazing_fisher_settings]
+		#Seconds per operation. Default 6
+		secondsperoperation = 6.0
+		#Number of items per operation. Default 4
+		itemsperoperation = 4.0
+		#% Chance of rare item drops. Default: 25
+		rareitemdropchance = 25.0
+
+	[fishers.draconic_fisher_settings]
+		#Seconds per operation. Default 4
+		secondsperoperation = 4.0
+		#Number of items per operation. Default 6
+		itemsperoperation = 6.0
+		#% Chance of rare item drops. Default: 25
+		rareitemdropchance = 25.0
+
+	[fishers.withered_fisher_settings]
+		#Seconds per operation. Default 2
+		secondsperoperation = 2.0
+		#Number of items per operation. Default 8
+		itemsperoperation = 8.0
+		#% Chance of rare item drops. Default: 25
+		rareitemdropchance = 25.0

@@ -1,0 +1,284 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creative__end_modpack"
+	group: "26669B6949684866"
+	id: "100D5CF7D0603C5D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3ED9300C0B509124"]
+			id: "0A75AB2032FAF22E"
+			tasks: [{
+				id: "0F63357E0FC34160"
+				item: { count: 1, id: "create:creative_blaze_cake" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3ED9300C0B509124"]
+			id: "14D5BC50F4AB532D"
+			tasks: [{
+				id: "4558E4A103F44F79"
+				item: { count: 1, id: "appliedcreate:creative_stress_cell" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3ED9300C0B509124"]
+			id: "696E0191587D1859"
+			tasks: [{
+				id: "247A7840201578D3"
+				item: { count: 1, id: "create:creative_motor" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18C77C02120AEAC5"]
+			id: "3ED9300C0B509124"
+			rewards: [{
+				id: "6F37415B13658833"
+				type: "xp"
+				xp: 2000
+			}]
+			tasks: [{
+				id: "11A0A07A7E0D495E"
+				item: { count: 1, id: "extendedcrafting:compressor" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13EB73CEDAAD1F2E"]
+			id: "18C77C02120AEAC5"
+			tasks: [{
+				id: "145024B2BA1364BA"
+				item: { count: 1, id: "packagedexcrafting:elite_crafter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4737DB4D641207F6"]
+			id: "13EB73CEDAAD1F2E"
+			rewards: [
+				{
+					id: "3FE7C1A04EB8DD6E"
+					item: {
+						count: 1
+						id: "srgens:refined_ore_gen"
+					}
+					type: "item"
+				}
+				{
+					id: "39FC35D4421A2F30"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "55CDAD23DC00E19F"
+					item: { count: 1, id: "packagedauto:packaging_provider" }
+					type: "item"
+				}
+				{
+					id: "71773047F1D73643"
+					item: { count: 1, id: "packagedauto:recipe_holder" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "4737DB4D641207F6"
+			rewards: [
+				{
+					id: "2F35F145FFB866B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "65CEFACBCF6CFFBE"
+					item: {
+						count: 1
+						id: "minecraft:beacon"
+					}
+					type: "item"
+				}
+				{
+					id: "2C8B9B326F87445A"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			tasks: [
+				{
+					id: "13C8DFB42C7BC9DD"
+					type: "checkmark"
+				}
+				{
+					id: "39368B68F3F17D7E"
+					item: { count: 1, id: "create_better_motors:nitro_motor" }
+					type: "item"
+				}
+				{
+					id: "122EC01E41BE3E8B"
+					item: { count: 1, id: "create_better_motors:brass_alternator" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3ED9300C0B509124"]
+			id: "07B4AAE766DA5610"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "59E0A152C058ED8F"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:bronze" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "6D20AE105F41AF29"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:electrum" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "3AF0B728E69B1C5B"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:invar" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "7CDC9E140827047B"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:terracotta" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "5E760B934A3ACED9"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:lapis_lazuli" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "043BAA5FA1E83BA7"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:coal" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "7BD7740206F4C7DE"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:redstone" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "4AFDF492C9F8ABBF"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:diamond" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "2ABF0F191708EE3D"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:platinum" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "0EDF90E9A9D28058"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:blazing_singularity" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "1200573979F4F872"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:iron" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "67EA078143ADBAE8"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:nickel" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "6949195C592CCB09"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:glowstone" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "2958E341F1A41E04"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:steel" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "26830529023ED25D"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:blaze_cake" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "54AD45B81AF8B886"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:emerald" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "75DE8D9CB370BC40"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:aluminum" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "0EA7118AC6F33EBF"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:silver" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "2F92594C40408947"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:tin" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "722F00A5F511956B"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:electric_motor" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "37319293F783A977"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:copper" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "39DD3E8F0A194FF1"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:cobblestone" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "6E22C7FB73C7151B"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:crops" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "1D4DFB3EE6B9C1DB"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:lead" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "6C474B3B10A3FE57"
+					item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:gold" }, count: 1, id: "extendedcrafting:singularity" }
+					type: "item"
+				}
+				{
+					id: "51BDFDE99892B940"
+					item: { count: 1, id: "extendedcrafting:ultimate_singularity" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.5d
+		}
+	]
+}

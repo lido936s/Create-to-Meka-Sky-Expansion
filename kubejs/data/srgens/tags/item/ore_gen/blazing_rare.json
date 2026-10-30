@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:diamond",
+    "minecraft:amethyst_shard",
+    "tconstruct:raw_cobalt",
+    "immersiveengineering:raw_aluminum"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#srgen:ore_gen/basic",
+    "#srgen:ore_gen/basic_rare"
+  ]
+}

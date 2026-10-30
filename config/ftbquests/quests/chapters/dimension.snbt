@@ -1,0 +1,196 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "dimension"
+	group: "5E562E8B2D716895"
+	id: "3A907869E90189A9"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0818E80E7757FD2E"
+			rewards: [{
+				id: "2E2AB3B8BC370AB2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3ECA1C43B3D92B2D"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0818E80E7757FD2E"
+				"15F204BB4934AA97"
+			]
+			id: "0E413BB761ECCCD7"
+			rewards: [
+				{
+					id: "65EA37EE9301E029"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "77C608ED0287C417"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68962ADBE2A224C2"
+				item: { count: 1, id: "jamd:nether_portal" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0818E80E7757FD2E"]
+			id: "096E7FEADA6D90DE"
+			tasks: [
+				{
+					id: "325E349197C7B128"
+					type: "checkmark"
+				}
+				{
+					id: "618AA4552A05EFD7"
+					item: { count: 1, id: "jamd:portal_block" }
+					type: "item"
+				}
+				{
+					id: "368CC3AD524E2D96"
+					item: { count: 1, id: "dimension_expansion:mining_teleporter" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["096E7FEADA6D90DE"]
+			id: "27DC5E8AB48B3F7E"
+			tasks: [{
+				dimension: "mining_dimension:mining"
+				id: "4A250B98F7B84871"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5FC50095F12F1964"]
+			id: "39EE3DA85F1AB109"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "254D5883A78404DD"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0818E80E7757FD2E"]
+			id: "5FC50095F12F1964"
+			tasks: [{
+				id: "0F0B7FD2330F2146"
+				item: { count: 1, id: "jamd:end_portal" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0818E80E7757FD2E"]
+			id: "25B495824E66BE13"
+			tasks: [
+				{
+					id: "022E38E297EC4338"
+					type: "checkmark"
+				}
+				{
+					id: "7E44B900E94289F3"
+					item: { count: 1, id: "create_dimension:steamworks_realm" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["25B495824E66BE13"]
+			id: "01322F57B5A343EC"
+			rewards: [
+				{
+					id: "2C5B423E7AEFB59B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "304FC1069BE87160"
+					item: {
+						count: 1
+						id: "ftbstuff:stone_cobblestone_generator"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "create_dimension:steamworks_realm"
+				id: "7E5063535CBD79C2"
+				type: "dimension"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0818E80E7757FD2E"]
+			id: "78775D29E11A2538"
+			tasks: [{
+				id: "3CD46F6B7944B0C5"
+				item: { count: 1, id: "exdeorum:end_cake" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["78775D29E11A2538"]
+			id: "51CCC66A5D90734C"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "5681DD67E4C9A21E"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["51CCC66A5D90734C"]
+			id: "5522B6BB17E0E548"
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "5564A86F5BC43AD2"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			id: "15F204BB4934AA97"
+			tasks: [{
+				dimension: "jamd:nether"
+				id: "319B3AE301AA5FF9"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+	]
+}

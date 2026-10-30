@@ -1,0 +1,33 @@
+// server_scripts/cake_teleport.js
+BlockEvents.rightClicked(event => {
+    const { block, player, level, server } = event
+    
+    if (block.id === 'kubejs:custom_lost_city_cake' && event.hand === 'main_hand' && player.mainHandItem.empty) {
+        event.cancel()
+
+        if (!level.isClientSide()) {
+            let targetDim = server.getLevel('lostcities:lostcity') 
+            
+            if (targetDim) {
+                let blockState = block.blockState
+                let bites = blockState.getValue(BlockProperties.BITES)
+
+                // Consomme une part (de 0 à 6)
+                if (bites < 6) {
+                    block.setBlockState(blockState.setValue(BlockProperties.BITES, bites + 1), 3)
+                } else {
+                    block.setAir() // Gâteau fini
+                }
+
+                // Téléportation sécurisée dans Lost Cities
+                let targetY = player.y < 60 ? 75 : player.y
+                player.teleportTo(targetDim, player.x, targetY, player.z, player.yaw, player.pitch)
+                
+                // Effets sonores
+                level.playSound(null, block.pos, 'minecraft:item.chorus_fruit.teleport', 'blocks', 1.0, 1.0)
+            } else {
+                player.tell("§cErreur : La dimension Lost Cities est introuvable.")
+            }
+        }
+    }
+})

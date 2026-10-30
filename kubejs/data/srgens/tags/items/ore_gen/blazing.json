@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#srgen:ore_gen/refined",
+    "#srgen:ore_gen/refined_rare"
+  ]
+}

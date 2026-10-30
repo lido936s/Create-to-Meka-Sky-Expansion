@@ -1,0 +1,62 @@
+{
+    "name": "Bûcheron Automatique",
+    "id": "bucheron_automatique",
+    "appearance": {
+        "block": "create:andesite_casing"
+    },
+    "components": [
+        {
+            "type": "custommachinery:item",
+            "id": "fuel_slot",
+            "mode": "input",
+            "max_stack_size": 64
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input_slot",
+            "mode": "input",
+            "max_stack_size": 64
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "output_slot",
+            "mode": "output",
+            "max_stack_size": 64
+        },
+        {
+            "type": "custommachinery:fuel",
+            "id": "machine_fuel_jauge",
+            "max_fuel": 1600
+        }
+    ],
+    "gui": [
+        {
+            "type": "custommachinery:slot",
+            "id": "input_slot",
+            "x": 44,
+            "y": 30
+        },
+        {
+            "type": "custommachinery:slot",
+            "id": "fuel_slot",
+            "x": 80,
+            "y": 55
+        },
+        {
+            "type": "custommachinery:slot",
+            "id": "output_slot",
+            "x": 116,
+            "y": 30
+        },
+        {
+            "type": "custommachinery:progress_bar",
+            "id": "jauge_flamme",
+            "x": 81,
+            "y": 36,
+            "width": 14,
+            "height": 14,
+            "texture": "custommachinery:textures/gui/fuel_progress.png",
+            "direction": "up"
+        }
+    ]
+}

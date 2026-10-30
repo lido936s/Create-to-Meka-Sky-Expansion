@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "translate": "category.create.early"
+  },
+  "icon": {
+    "id": "create:cogwheel"
+  },
+  "sortIndex": 10
+}

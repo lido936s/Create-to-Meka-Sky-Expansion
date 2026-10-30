@@ -1,0 +1,12 @@
+{
+  "name": "singularity.extendedcrafting.blaze_cake",
+  "id": "extendedcrafting:blaze_cake_singularity",
+  "colors": [
+    "E37324",
+    "5B4136"
+  ],
+  "ingredient": {
+    "item": "create:blaze_cake"
+  },
+  "count": 1000
+}

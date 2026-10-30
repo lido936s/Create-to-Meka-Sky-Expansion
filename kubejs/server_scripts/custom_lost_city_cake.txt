@@ -1,0 +1,10 @@
+ServerEvents.recipes(event => {
+    event.shaped('kubejs:custom_lost_city_cake', [
+        'BBB',
+        'BEB',
+        'BBB'
+    ], {
+        B: 'minecraft:bricks',
+        E: 'minecraft:ender_pearl'
+    })
+})

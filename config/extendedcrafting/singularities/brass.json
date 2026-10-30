@@ -1,0 +1,12 @@
+{
+  "name": "Singularité de lingot de laiton",
+  "colors": [
+    "E4B65B",
+    "A88134"
+  ],
+  "ingredient": {
+    "item": "create:brass_ingot"
+  },
+  "materialCount": 512,
+  "inUltimateSingularity": true
+}

@@ -1,0 +1,47 @@
+ServerEvents.recipes(event => {
+    
+    const structureScierie = [
+        ["ccccc", "ccccc", "ccccc", "ccccc", "ccccc"],
+        ["pdddp", "d   h", "d   d", "d   d", "p m p"],
+        ["pdddp", "d   h", "g g g", "g   g", "p   p"],
+        ["ttttt", "t   h", "ttttt", "ttttt", "ttttt"]
+    ];
+
+    const blocsEtiquettes = {
+        "c": "create:andesite_casing",
+        "p": "create:andesite_pillar",
+        "g": "create:metal_girder",
+        "d": "supplementaries:daub",
+        "h": "supplementaries:ash_bricks",
+        "t": "create:industrial_iron_block"
+    };
+
+    function ajouterDecoupeSelectionnee(idUnique, modeID, itemEntree, itemSortie, quantiteSortie) {
+        event.custom({
+            type: "custommachinery:custom_machine",
+            machine: "kubejs:saw_burner", // Résout l'erreur "Unknown machine id"
+            time: 160,
+            requirements: [
+                { type: "custommachinery:structure", pattern: structureScierie, keys: blocsEtiquettes, action: "check" },
+                { type: "custommachinery:fuel", amount: 50 },
+                {
+                    type: "custommachinery:data",
+                    id: "mode_decoupe",
+                    min: modeID,
+                    max: modeID
+                },
+                { type: "custommachinery:item", mode: "input", ingredient: { item: itemEntree }, amount: 1, slot: "input" },
+                { type: "custommachinery:item", mode: "output", item: itemSortie, amount: quantiteSortie, slot: "output" }
+            ]
+        }).id(`kubejs:scierie/${idUnique}`);
+    }
+
+    // --- GENERATION DES RECETTES ---
+    ajouterDecoupeSelectionnee("chene_planches", 0, "minecraft:oak_log", "minecraft:oak_planks", 4);
+    ajouterDecoupeSelectionnee("sapin_planches", 0, "minecraft:spruce_log", "minecraft:spruce_planks", 4);
+    ajouterDecoupeSelectionnee("chene_dalles", 1, "minecraft:oak_log", "minecraft:oak_slab", 8);
+    ajouterDecoupeSelectionnee("sapin_dalles", 1, "minecraft:spruce_log", "minecraft:spruce_slab", 8);
+    ajouterDecoupeSelectionnee("chene_escaliers", 2, "minecraft:oak_log", "minecraft:oak_stairs", 4);
+    ajouterDecoupeSelectionnee("sapin_escaliers", 2, "minecraft:spruce_log", "minecraft:spruce_stairs", 4);
+
+});

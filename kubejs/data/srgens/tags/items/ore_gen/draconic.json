@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#srgen:ore_gen/blazing",
+    "#srgen:ore_gen/blazing_rare"
+  ]
+}

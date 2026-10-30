@@ -1,0 +1,11 @@
+{
+  "name": "Singularité de cobblestone",
+  "colors": [
+    "696969",
+    "4F4F4F"
+  ],
+  "ingredient": {
+    "item": "minecraft:cobblestone"
+  },
+  "inUltimateSingularity": false
+}

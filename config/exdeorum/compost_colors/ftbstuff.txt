@@ -1,0 +1,15 @@
+// Compost colors for ftbstuff. You may add your own colors, change existing ones, or remove colors that aren't needed.
+cast_iron_gear, #bbbbc5
+cast_iron_ingot, #cad0dc
+cast_iron_nugget, #ffffff
+diamond_hammer, #f7ffff
+dripper, #9a7947
+fluid_capsule, #5f6573
+gold_hammer, #ffffe7
+iron_hammer, #fffffe
+netherite_hammer, #ede4da
+stone_crook, #ffffff
+stone_hammer, #fffcf2
+stone_rod, #525252
+tempered_glass, #ffffff
+water_bowl, #58586e

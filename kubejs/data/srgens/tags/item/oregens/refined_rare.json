@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:raw_gold",
+    "minecraft:lapis_lazuli",
+    {
+      "id": "mekanism:block_raw_lead",
+      "required": false
+    },
+    {
+      "id": "create:raw_zinc_block",
+      "required": false
+    },
+    "minecraft:diamond",
+    "minecraft:coal_block",
+    {
+      "id": "mekanism:block_raw_tin",
+      "required": false
+    },
+    {
+      "id": "mekanism:raw_osmium",
+      "required": false
+    },
+    "minecraft:raw_copper_block"
+  ]
+}

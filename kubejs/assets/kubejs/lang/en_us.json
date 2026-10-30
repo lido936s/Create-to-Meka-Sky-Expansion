@@ -1,0 +1,15 @@
+{
+  "item.kubejs.incomplete_energy_pipe": "Incomplete Energy Pipe",
+  "item.kubejs.wire_mold": "Wire Mold",
+  "item.kubejs.clean_ancient_fragment": "Clean Ancient Fragment",
+  "item.kubejs.ancient_fragment": "Ancient Fragment",
+  "item.kubejs.corrupted_fragment": "Corrupted Fragment",
+  "item.kubejs.mineral_slurry": "Mineral Slurry",
+  "item.kubejs.ionized_mineral_slurry": "Ionized Mineral Slurry",
+  "item.kubejs.charged_slurry": "Charged Slurry",
+  "item.kubejs.charged_mineral_slurry": "Charged Mineral Slurry",
+  "item.kubejs.charged_ionized_mineral_slurry": "Charged Ionized Mineral Slurry",
+  "item.kubejs.charged_ancient_fragment": "Charged Ancient Fragment",
+  "item.kubejs.charged_corrupted_fragment": "Charged Corrupted Fragment",
+  "block.kubejs.sand_generator": "Sand Generator"
+}

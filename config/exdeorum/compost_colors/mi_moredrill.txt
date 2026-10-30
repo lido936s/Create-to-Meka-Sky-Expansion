@@ -1,0 +1,24 @@
+// Compost colors for mi_moredrill. You may add your own colors, change existing ones, or remove colors that aren't needed.
+allthemodium_bolt, #ffff40
+allthemodium_curved_plate, #fff428
+allthemodium_drill, #ffd254
+allthemodium_drill_head, #ffe32c
+allthemodium_ring, #ffe430
+desh_bolt, #845541
+desh_curved_plate, #ffa054
+desh_drill, #e0a583
+desh_drill_head, #f19d6b
+desh_gear, #ffbb75
+desh_plate, #ffd687
+desh_ring, #ffe698
+desh_rod, #e69672
+unobtainium_bolt, #1e0422
+unobtainium_curved_plate, #4a086f
+unobtainium_drill, #4d1e62
+unobtainium_drill_head, #37074d
+unobtainium_ring, #9a58dc
+vibranium_bolt, #281b16
+vibranium_curved_plate, #295846
+vibranium_drill, #395446
+vibranium_drill_head, #263d30
+vibranium_ring, #4dedcc

@@ -1,0 +1,35 @@
+PortalEvents.register(event => {
+
+  // 🌱 LOST CITIES
+  event.create("lostcities_portal")
+    .frameBlock("create:brass_block")
+    .lightWithItem("minecraft:diamond")
+    .destDimID("lostcities:lostcity")
+    .returnDim("minecraft:overworld")
+    .tintColor(180, 255, 180)
+
+  console.log("[Portal] OK -> lostcities:lostcity")
+
+
+  // 🔥 NETHER
+  event.create("nether_portal_custom")
+    .frameBlock("immersiveengineering:blastbrick_reinforced")
+    .lightWithItem("immersiveengineering:rs_engineering")
+    .destDimID("minecraft:the_nether")
+    .returnDim("minecraft:overworld")
+    .tintColor(255, 120, 40)
+
+  console.log("[Portal] OK -> minecraft:the_nether")
+
+
+  // 🌌 END
+  event.create("end_portal_custom")
+    .frameBlock("mekanism:teleportation_core")
+    .lightWithItem("create:precision_mechanism")
+    .destDimID("minecraft:the_end")
+    .returnDim("minecraft:overworld")
+    .tintColor(180, 120, 255)
+
+  console.log("[Portal] OK -> minecraft:the_end")
+
+})

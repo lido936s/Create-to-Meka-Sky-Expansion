@@ -1,0 +1,16 @@
+{
+  "textures": {
+    "still": "kubejs:block/nether_star_still",
+    "flowing": "kubejs:block/nether_star_flow"
+  },
+  "bucketColor": 13248510,
+  "lightLevel": 15,
+  "density": 3000,
+  "viscosity": 6000,
+  "temperature": 1000,
+  "fallDistanceModifier": 0.0,
+  "canDrown": false,
+  "canSwim": true,
+  "canExtinguish": false,
+  "supportsBoating": false
+}

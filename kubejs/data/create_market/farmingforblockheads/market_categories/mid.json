@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "translate": "category.create.mid"
+  },
+  "icon": {
+    "id": "create:mechanical_press"
+  },
+  "sortIndex": 20
+}

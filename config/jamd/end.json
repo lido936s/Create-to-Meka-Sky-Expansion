@@ -1,0 +1,197 @@
+{
+  "oreMultiplier": 1,
+  "ores": [
+    {
+      "ore_size": 12,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 10,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 30
+            },
+            "max_inclusive": {
+              "absolute": 112
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Name": "minecraft:clay"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Name": "clayable:clay_coal_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "c:stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "clayable:clay_coal_ore"
+          }
+        },
+        {
+          "target": {
+            "block_state": {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:deepslate"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Name": "clayable:clay_coal_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 16,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 10,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 256
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "clayable:clay_iron_ore"
+          }
+        },
+        {
+          "target": {
+            "block_state": {
+              "Name": "minecraft:clay"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Name": "clayable:clay_iron_ore"
+          }
+        },
+        {
+          "target": {
+            "block_state": {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:deepslate"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Name": "clayable:clay_iron_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 10,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 10,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": -16
+            },
+            "max_inclusive": {
+              "absolute": 112
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "clayable:clay_copper_ore"
+          }
+        },
+        {
+          "target": {
+            "block_state": {
+              "Name": "minecraft:clay"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Name": "clayable:clay_copper_ore"
+          }
+        },
+        {
+          "target": {
+            "block_state": {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:deepslate"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Name": "clayable:clay_copper_ore"
+          }
+        }
+      ]
+    }
+  ]
+}

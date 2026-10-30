@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:nether_star",
+    "minecraft:echo_shard",
+    "create:shadow_steel"
+  ]
+}

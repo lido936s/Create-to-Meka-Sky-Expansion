@@ -1,0 +1,12 @@
+{
+  "name": "singularity.extendedcrafting.blazing",
+  "id": "extendedcrafting:blazing_singularity",
+  "colors": [
+    "FF8000",
+    "CC3300"
+  ],
+  "ingredient": {
+    "item": "create:blaze_burner"
+  },
+  "count": 10000
+}

@@ -1,0 +1,12 @@
+{
+  "name": "singularity.extendedcrafting.terracotta",
+  "id": "extendedcrafting:terracotta_singularity",
+  "colors": [
+    "D1A083",
+    "945A37"
+  ],
+  "ingredient": {
+    "item": "minecraft:terracotta"
+  },
+  "count": 10000
+}

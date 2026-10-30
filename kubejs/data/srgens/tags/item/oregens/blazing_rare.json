@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mekanism:raw_uranium",
+      "required": false
+    },
+    {
+      "id": "mekanism:block_raw_lead",
+      "required": false
+    },
+    {
+      "id": "create:raw_zinc_block",
+      "required": false
+    },
+    "minecraft:raw_iron_block",
+    "minecraft:diamond",
+    "minecraft:coal_block",
+    {
+      "id": "mekanism:block_raw_osmium",
+      "required": false
+    },
+    "minecraft:quartz",
+    {
+      "id": "mekanism:block_raw_tin",
+      "required": false
+    },
+    "minecraft:amethyst_shard",
+    "minecraft:raw_copper_block"
+  ]
+}

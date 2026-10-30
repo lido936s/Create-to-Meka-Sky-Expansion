@@ -1,0 +1,7 @@
+// Compost colors for wa_ender_quarry. You may add your own colors, change existing ones, or remove colors that aren't needed.
+blank_module, #cccccc
+module_fortune_1, #afafaf
+module_fortune_2, #9b9b9b
+module_fortune_3, #868686
+module_fortune_5, #979797
+module_half_time, #acacac

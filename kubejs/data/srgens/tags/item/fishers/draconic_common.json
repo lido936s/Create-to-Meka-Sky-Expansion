@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:prismarine_crystals",
+    "minecraft:prismarine_shard",
+    "minecraft:cod",
+    "minecraft:pufferfish",
+    "minecraft:salmon",
+    "minecraft:tropical_fish"
+  ]
+}

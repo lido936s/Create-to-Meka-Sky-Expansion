@@ -1,0 +1,106 @@
+{
+	id: "escape_the_undergarden"
+	group: ""
+	order_index: 0
+	filename: "escape_the_undergarden"
+	title: "Escaping the Depths"
+	icon: "undergarden:catalyst"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Survive and Equip"
+			x: -3.0d
+			y: 0.0d
+			description: ["Before you can even think about leaving, you must harvest the basic materials of this dimension to craft tools capable of mining the portal components."]
+			id: "undergarden_survive"
+			tasks: [
+				{
+					id: "twistroot_log_task"
+					type: "item"
+					item: "undergarden:twistroot_log"
+					count: 16L
+				}
+				{
+					id: "cloggrum_ingot_task"
+					type: "item"
+					item: "undergarden:cloggrum_ingot"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "food_reward"
+				type: "item"
+				item: "undergarden:underbean"
+				count: 8
+			}]
+		}
+		{
+			title: "The Portal Frame"
+			x: -0.5d
+			y: -1.5d
+			description: ["The portal back home requires specific stone bricks. Fortunately, you can use local Undergarden depthrock bricks to reconstruct the frame."]
+			dependencies: ["undergarden_survive"]
+			id: "undergarden_frame"
+			tasks: [{
+				id: "depthrock_bricks_task"
+				type: "item"
+				item: "undergarden:depthrock_bricks"
+				count: 10L
+			}]
+			rewards: [{
+				id: "xp_reward_frame"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "The Spark of Life"
+			x: -0.5d
+			y: 1.5d
+			description: ["A portal frame is nothing without its ignition. In the Overworld, you used a flint and steel. Here, you need an unstable catalyst."]
+			dependencies: ["undergarden_survive"]
+			id: "undergarden_catalyst"
+			tasks: [{
+				id: "catalyst_task"
+				type: "item"
+				item: "undergarden:catalyst"
+			}]
+			rewards: [{
+				id: "regalium_reward"
+				type: "item"
+				item: "undergarden:regalium_ingot"
+			}]
+		}
+		{
+			title: "Return to the Light"
+			shape: "star"
+			x: 2.0d
+			y: 0.0d
+			description: ["Build a standard 4x5 portal frame using the Depthrock Bricks, then right-click its base with the Catalyst. Step through and find your way back to the Overworld!"]
+			dependencies: [
+				"undergarden_frame"
+				"undergarden_catalyst"
+			]
+			id: "undergarden_return"
+			tasks: [{
+				id: "overworld_dimension_task"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [
+				{
+					id: "diamond_reward"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "xp_reward_final"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

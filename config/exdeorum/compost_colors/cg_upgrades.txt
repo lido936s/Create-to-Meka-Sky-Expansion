@@ -1,0 +1,8 @@
+// Compost colors for cg_upgrades. You may add your own colors, change existing ones, or remove colors that aren't needed.
+cg_upgrades_icon, #c3cac2
+copper_to_iron, #ccc6c5
+diamond_to_netherite, #b8c5c3
+emerald_to_diamond, #b6d4c9
+gold_to_emerald, #c3d0b9
+iron_to_gold, #d3cfc2
+stone_to_copper, #c5bfbc

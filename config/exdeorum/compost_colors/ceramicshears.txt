@@ -1,0 +1,4 @@
+// Compost colors for ceramicshears. You may add your own colors, change existing ones, or remove colors that aren't needed.
+ceramic_shears, #b96541
+ceramic_shears_part, #bb6543
+clay_shears_part, #9d939a

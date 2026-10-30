@@ -1,0 +1,35 @@
+
+{
+  "quests": [
+    {
+      "title": "Basalt Industry",
+      "tasks": [
+        {
+          "type": "item",
+          "item": "minecraft:basalt",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "title": "First Lava",
+      "tasks": [
+        {
+          "type": "item",
+          "item": "minecraft:lava_bucket",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "title": "Automated Lava",
+      "tasks": [
+        {
+          "type": "item",
+          "item": "minecraft:lava_bucket",
+          "count": 16
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "quality_of_life"
+	group: "5E562E8B2D716895"
+	id: "18A56B5C91E73275"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5A81A2ECCB3C4C2A"]
+			id: "5D6FE7D9A0A1357A"
+			rewards: [{
+				id: "007727E7640B5CD0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "698EAF54C239598B"
+				item: { count: 1, id: "toms_storage:storage_terminal" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A81A2ECCB3C4C2A"]
+			id: "4DB88AC7A98A4EE0"
+			rewards: [{
+				id: "2C95D25228165714"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "037982E85D64BCCB"
+				item: { count: 1, id: "sophisticatedstorage:controller" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A81A2ECCB3C4C2A"]
+			id: "6E69991356633060"
+			rewards: [
+				{
+					id: "2D00DF1C96BF217D"
+					item: {
+						count: 1
+						id: "exdeorum:porcelain_crucible"
+					}
+					type: "item"
+				}
+				{
+					id: "1A08F6D0F13C28D1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5C90E80B64611A18"
+				item: { count: 1, id: "ftbstuff:iron_cobblestone_generator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A81A2ECCB3C4C2A"]
+			id: "14A08A5B721000A1"
+			rewards: [
+				{
+					id: "251153A553B43416"
+					item: {
+						components: {
+							"ftbquests:missing_item": "thermal:saw_blade"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5CB0AA6A575832CC"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "4762519E6D81CDAC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4571218363A4DDCC"
+				item: { count: 1, id: "sawmill:sawmill" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A81A2ECCB3C4C2A"]
+			id: "5EB66259629F6667"
+			rewards: [
+				{
+					id: "06545885E2E5F8D6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2864DFC37BF33A83"
+					item: {
+						count: 1
+						id: "create:rotation_speed_controller"
+					}
+					type: "item"
+				}
+				{
+					id: "39F039441AAA49C4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2F21D5EAF6469B19"
+				item: { count: 1, id: "sophisticatedstorage:diamond_chest" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A81A2ECCB3C4C2A"]
+			id: "4F47434111D46302"
+			rewards: [{
+				id: "43F10A79F9F3867D"
+				item: {
+					count: 1
+					id: "minecraft:water_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61DA5132BD640AE5"
+				item: { count: 1, id: "cookingforblockheads:sink" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A81A2ECCB3C4C2A"]
+			id: "4AEFC6C7B5C831F1"
+			rewards: [
+				{
+					id: "45B71004C6D760E8"
+					item: {
+						components: {
+							"ftbquests:missing_item": "srgen:basic_ore_gen"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "0542CA2BAC470B29"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "7AE158F851EBBBE0"
+					item: { count: 1, id: "minecraft:hopper" }
+					type: "item"
+				}
+				{
+					id: "1571F280B5057C23"
+					item: { count: 1, id: "pipez:wrench" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4EB1ECAC11137A34"
+					item: { count: 1, id: "pipez:item_pipe" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "0C2BCAA1FC42AA93"
+					item: { count: 1, id: "pipez:fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A81A2ECCB3C4C2A"]
+			id: "15B1E6575D64F525"
+			rewards: [{
+				id: "1A1BB04655179D9D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7271B1EC79EB65F8"
+					item: { count: 1, id: "easy_villagers:trader" }
+					type: "item"
+				}
+				{
+					id: "0741A7D17B2C5A14"
+					item: { count: 1, id: "easy_villagers:farmer" }
+					type: "item"
+				}
+				{
+					id: "7C5FA6CB0635D6BD"
+					item: { count: 1, id: "easy_villagers:iron_farm" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "5A81A2ECCB3C4C2A"
+			tasks: [
+				{
+					id: "3672BE47026C56F0"
+					type: "checkmark"
+				}
+				{
+					id: "2C787ED7751395A2"
+					item: { count: 1, id: "mechanical_botany:mechanical_insolator" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3.0d
+		}
+	]
+}

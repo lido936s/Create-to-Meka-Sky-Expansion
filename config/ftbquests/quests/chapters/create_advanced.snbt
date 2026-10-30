@@ -1,0 +1,245 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_advanced"
+	group: "2C73944DD8D5E480"
+	id: "5F49108303380E08"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0FC0DF0DA66063E8"]
+			id: "2AEF69A311759695"
+			rewards: [
+				{
+					id: "66E4147D08A6FE5A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "6CB0EDFC09A6B2EB"
+					item: {
+						count: 1
+						id: "create:mechanical_pump"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "710007400B8C384E"
+				item: { count: 1, id: "create:raw_zinc" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2AEF69A311759695"]
+			id: "7BBF4FCB649FC413"
+			rewards: [
+				{
+					id: "43934B33FF28F861"
+					item: {
+						count: 1
+						id: "createsifter:brass_mesh"
+					}
+					type: "item"
+				}
+				{
+					id: "0558EEA39D90A737"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "74C18168342CFBFB"
+					item: { count: 1, id: "createaddition:electric_motor" }
+					type: "item"
+				}
+				{
+					id: "16F25406AEA670A2"
+					item: { count: 1, id: "createaddition:alternator" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			id: "0FC0DF0DA66063E8"
+			rewards: [
+				{
+					id: "493B2BE2D4EF4465"
+					item: {
+						count: 1
+						id: "createaddition:rolling_mill"
+					}
+					type: "item"
+				}
+				{
+					id: "5F48A3327BEE0682"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7A939D9720D1F990"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35251102855B8042"]
+			id: "034731C8BEBDF73A"
+			rewards: [{
+				id: "3C8B2C9212EE8321"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3D3BBCD24CA8DC32"
+				item: { count: 1, id: "generatorgalore:copper_generator" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1AC127490F48DC8B"]
+			id: "35251102855B8042"
+			rewards: [{
+				id: "6F266B6C15350132"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 32L
+				id: "64C4A900C4A45C9A"
+				item: { count: 1, id: "pipez:energy_pipe" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7BBF4FCB649FC413"]
+			id: "5E167E37F0744039"
+			rewards: [
+				{
+					id: "107498DC847C49D3"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					id: "6B20EA2D4AC90FBD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5F6B7CAED83EA5F4"
+				item: { count: 1, id: "kubejs:liquid_redstone_bucket" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E167E37F0744039"]
+			id: "3E2CE74FCDDB41FE"
+			rewards: [
+				{
+					id: "4861C7EB7A60B087"
+					item: {
+						count: 1
+						id: "createaddition:rolling_mill"
+					}
+					type: "item"
+				}
+				{
+					id: "508DE735481DBBAA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0FB9FF81A0694153"
+				item: { count: 1, id: "vintageimprovements:laser" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E2CE74FCDDB41FE"]
+			id: "1AC127490F48DC8B"
+			rewards: [{
+				id: "38C429642089CA55"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1102BA810D26F107"
+				item: { count: 1, id: "immersiveengineering:coil_lv" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["35251102855B8042"]
+			id: "5A9D443C53F7DDF8"
+			rewards: [{
+				id: "056DE53DBC8FB126"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 8L
+				id: "3E772585ECF62CE1"
+				item: { count: 1, id: "mekanism:basic_universal_cable" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["034731C8BEBDF73A"]
+			id: "3C734B82AC8420AF"
+			rewards: [{
+				id: "636174533861A760"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6D8DFB57FCE84A31"
+				item: { count: 1, id: "generatorgalore:iron_generator" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C734B82AC8420AF"]
+			id: "25B42F0994810573"
+			rewards: [{
+				id: "722CFA847281D413"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1CFB37E821A04462"
+				item: { count: 1, id: "generatorgalore:gold_generator" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Singularité d'alliage d'andésite",
+  "colors": [
+    "858B82",
+    "5E635C"
+  ],
+  "ingredient": {
+    "item": "create:andesite_alloy"
+  },
+  "materialCount": 1000,
+  "inUltimateSingularity": true
+}

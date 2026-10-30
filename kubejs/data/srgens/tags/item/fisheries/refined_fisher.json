@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#srgen:fisheries/basic_fisher",
+    "minecraft:tropical_fish",
+    "minecraft:iron_nugget"
+  ]
+}

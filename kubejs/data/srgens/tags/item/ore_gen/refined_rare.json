@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:quartz",
+    "minecraft:redstone",
+    "minecraft:emerald",
+    "minecraft:ancient_debris"
+  ]
+}

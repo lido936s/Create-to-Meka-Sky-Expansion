@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:prismarine_crystals",
+    "minecraft:heart_of_the_sea",
+    "minecraft:prismarine_shard",
+    "minecraft:cod",
+    "minecraft:pufferfish",
+    "minecraft:salmon",
+    "minecraft:tropical_fish"
+  ]
+}

@@ -1,0 +1,80 @@
+const PORTALS = [
+  {
+    name: "lostcities",
+    frame: "create:brass_block",
+    trigger: "minecraft:diamond",
+    from: "minecraft:overworld",
+    to: "lostcities:lostcity",
+    pos: { x: 0, y: 80, z: 0 },
+    particle: "minecraft:portal",
+    colorMsg: "§a"
+  },
+
+  {
+    name: "nether_custom",
+    frame: "immersiveengineering:blastbrick_reinforced",
+    trigger: "immersiveengineering:rs_engineering",
+    from: "minecraft:overworld",
+    to: "minecraft:the_nether",
+    pos: { x: 0, y: 100, z: 0 },
+    particle: "minecraft:flame",
+    colorMsg: "§6"
+  },
+
+  {
+    name: "end_custom",
+    frame: "mekanism:teleportation_core",
+    trigger: "create:precision_mechanism",
+    from: "minecraft:overworld",
+    to: "minecraft:the_end",
+    pos: { x: 0, y: 80, z: 0 },
+    particle: "minecraft:end_rod",
+    colorMsg: "§d"
+  }
+]
+
+// ==========================
+// ACTIVATION PORTAIL
+// ==========================
+BlockEvents.rightClicked(event => {
+
+  const player = event.player
+  const item = player.mainHandItem
+  const block = event.block
+
+  for (let p of PORTALS) {
+
+    if (item.id != p.trigger) continue
+    if (block.id != p.frame) continue
+
+    player.tell(p.colorMsg + "[Portal] Activation: " + p.name)
+
+    player.server.scheduleInTicks(10, () => {
+
+      player.changeDimension(p.to)
+      player.teleport(p.pos.x, p.pos.y, p.pos.z)
+
+      player.tell("§b[Portal] Arrived: " + p.to)
+    })
+
+    event.cancel()
+    return
+  }
+})
+
+// ==========================
+// PARTICULES SAFE (NO CRASH)
+// ==========================
+ServerEvents.tick(event => {
+
+  const server = event.server
+
+  server.players.forEach(player => {
+
+    if (player.tickCount % 40 !== 0) return
+
+    server.runCommandSilent(
+      `particle minecraft:portal ${player.x} ${player.y} ${player.z} 0.3 0.5 0.3 0.01 15 force`
+    )
+  })
+})

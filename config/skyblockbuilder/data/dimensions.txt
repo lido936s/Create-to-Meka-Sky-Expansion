@@ -1,0 +1,13 @@
+minecraft:overworld
+minecraft:the_nether
+jamd:nether
+jamd:mining
+lostcities:lostcity
+undergarden:undergarden
+jamd:end
+create_dimension:steamworks_realm
+dimension_expansion:mining
+dimension_expansion:stone_block
+minecraft:the_end
+dimension_expansion:deep_beneath
+ae2:spatial_storage

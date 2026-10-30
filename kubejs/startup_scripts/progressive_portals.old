@@ -1,0 +1,61 @@
+// ======================================================
+// 🌌 PROGRESSIVE PORTALS SYSTEM (KubeJS 1.21.1)
+// ======================================================
+
+const CustomPortalBuilder = Java.loadClass(
+  'net.kyrptonaught.customportalapi.api.CustomPortalBuilder'
+)
+
+StartupEvents.registry(event => {
+
+  function portal(frameBlockId, lightItemId, toDim, fromDim, color, flat) {
+
+    const builder = CustomPortalBuilder.beginPortal()
+
+    builder.frameBlock(frameBlockId)
+    builder.lightWithItem(lightItemId)
+
+    if (flat) builder.flatPortal()
+
+    const { R, G, B } = color
+
+    builder
+      .destDimID(toDim)
+      .returnDim(fromDim)
+      .tintColor(R, G, B)
+      .registerPortal()
+
+    console.log("[Portal] OK -> " + toDim)
+  }
+
+  // 🌱 LOST CITIES
+  portal(
+    "create:brass_block",
+    "minecraft:diamond",
+    "lostcities:lostcity",
+    "minecraft:overworld",
+    { R: 180, G: 255, B: 180 },
+    true
+  )
+
+  // 🔥 NETHER
+  portal(
+    "immersiveengineering:blastbrick_reinforced",
+    "immersiveengineering:rs_engineering",
+    "minecraft:the_nether",
+    "minecraft:overworld",
+    { R: 255, G: 120, B: 40 },
+    true
+  )
+
+  // 🌌 END
+  portal(
+    "mekanism:teleportation_core",
+    "create:precision_mechanism",
+    "minecraft:the_end",
+    "minecraft:overworld",
+    { R: 180, G: 120, B: 255 },
+    false
+  )
+
+})

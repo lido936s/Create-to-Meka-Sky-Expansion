@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/cake",
+  "textures": {
+    "particle": "kubejs:block/custom_lost_city_cake_side",
+    "bottom": "kubejs:block/custom_lost_city_cake_bottom",
+    "top": "kubejs:block/custom_lost_city_cake_top",
+    "side": "kubejs:block/custom_lost_city_cake_side",
+    "inside": "kubejs:block/custom_lost_city_cake_inner"
+  }
+}

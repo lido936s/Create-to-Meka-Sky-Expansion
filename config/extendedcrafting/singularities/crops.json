@@ -1,0 +1,12 @@
+{
+  "name": "singularity.extendedcrafting.crops",
+  "id": "extendedcrafting:crops_singularity",
+  "colors": [
+    "A3B86C",
+    "5C6B3A"
+  ],
+  "ingredient": {
+    "item": "minecraft:wheat_seeds"
+  },
+  "count": 20000
+}

@@ -1,0 +1,17 @@
+{
+  "type": "cobblegengalore:blockgen",
+  "result": {
+    "id": "supplementaries:ash",
+    "count": 1
+  },
+  "speed": 2,
+  "left": {
+    "Name": "minecraft:water"
+  },
+  "right": {
+    "Name": "kubejs:molten_carbon"
+  },
+  "modifier": {
+    "Name": "quark:sugar_cane_block"
+  }
+}

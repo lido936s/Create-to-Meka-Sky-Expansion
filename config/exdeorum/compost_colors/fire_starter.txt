@@ -1,0 +1,2 @@
+// Compost colors for fire_starter. You may add your own colors, change existing ones, or remove colors that aren't needed.
+fire_starter, #695228

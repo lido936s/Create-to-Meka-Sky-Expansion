@@ -1,0 +1,13 @@
+{
+	"type":"createaddition:charging",
+	"input": {
+      	"item": "kubejs:mineral_slurry",
+		"count": 1
+	},
+	"result": {
+		"item": "kubejs:ionized_mineral_slurry",
+		"count": 1
+	},
+	"energy": 4000,
+	"maxChargeRate": 200
+}

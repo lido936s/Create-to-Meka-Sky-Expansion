@@ -1,0 +1,25 @@
+ServerEvents.recipes((event) => {
+  // Supprime les recettes cassées de Pam's HarvestCraft pour nettoyer la console
+  const pmhcCassés = [
+    "pamhc2foodextended:applecideritem",
+    "pamhc2foodextended:deviledeggitem",
+    "pamhc2foodextended:succotashitem",
+    "pamhc2foodextended:saucedlambkebabitem",
+    "pamhc2foodextended:pearjellytoastitem",
+    "pamhc2foodextended:blackberryyogurtitem",
+    "pamhc2foodextended:roastpotatoesitem",
+    "pamhc2foodextended:chocovoxelsitem",
+    "pamhc2foodextended:breadfruitjellyitem",
+    "pamhc2foodextended:honeysoyribsitem",
+    "pamhc2foodextended:juniperberryjuiceitem",
+    "pamhc2foodextended:lemonlimesodaitem",
+    "pamhc2foodextended:manjuuitem",
+    "pamhc2foodextended:phoitem",
+    "pamhc2foodextended:lycheejellysandwichitem",
+    "pamhc2foodextended:sunflowerbroccolisaladitem",
+  ];
+
+  pmhcCassés.forEach((idRecette) => {
+    event.remove({ id: idRecette });
+  });
+});
