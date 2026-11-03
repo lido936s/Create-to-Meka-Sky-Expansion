@@ -24,7 +24,7 @@ event.shaped(
     ' C '
 ], {
     // arg 2: the mapping
-    A: 'minecraft:oak_log',  //arg 3: the mapping object
+    A: '#minecraft:logs',  //arg 3: the mapping object
     B: 'minecraft:stick',
     C: 'kubejs:fire_starter',
 }
@@ -40,7 +40,7 @@ event.shaped(
     'FBF'
 ], {
     // arg 2: the mapping
-    A: 'minecraft:oak_log',
+    A: '#minecraft:logs',
     B: 'minecraft:furnace',  //arg 3: the mapping object
     C: 'minecraft:campfire',
     D: 'minecraft:oak_leaves',
@@ -58,7 +58,7 @@ event.shaped(
     'AAA'
 ], {
     // arg 2: the mapping
-    A: 'minecraft:oak_log',  //arg 3: the mapping object
+    A: '#minecraft:logs',  //arg 3: the mapping object
     B: 'minecraft:torch',
     C: 'minecraft:stick',
 });
@@ -73,7 +73,7 @@ event.shaped(
     ' B '
 ], {
     // arg 2: the mapping
-    A: 'minecraft:oak_log',
+    A: '#minecraft:logs',
     B: 'minecraft:campfire',  //arg 3: the mapping object
     C: '#minecraft:coals',
     D: 'minecraft:stone_hoe',

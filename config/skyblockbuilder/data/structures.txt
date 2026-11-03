@@ -166,6 +166,10 @@ supplementaries:galleon
 supplementaries:road_sign
 tombstone:abandoned_grave_land
 tombstone:abandoned_grave_ocean
+uas:carousel_spawner_1
+uas:carousel_spawner_2
+uas:carousel_spawner_3
+uas:garden_fortress
 undergarden:catacombs
 undergarden:denizen_camp
 undergarden:depleted_mine

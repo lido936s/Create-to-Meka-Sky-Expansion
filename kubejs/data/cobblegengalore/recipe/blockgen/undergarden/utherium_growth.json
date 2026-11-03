@@ -1,0 +1,18 @@
+{
+  "type": "cobblegengalore:blockgen",
+  "result": {
+    "id": "undergarden:utherium_growth",
+    "count": 1
+  },
+  "speed": 2,
+  "left": {
+    "Name": "undergarden:virulent_mix"
+  },
+  "right": {
+    "Name": "createqol:superheated_lava"
+  },
+  "modifier": {
+    "Name": "undergarden:utherium_block"
+  },
+  "consumeRight": false
+}

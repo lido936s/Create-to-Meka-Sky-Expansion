@@ -150,7 +150,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["55E1188A9C66EC0A"]
@@ -697,12 +697,15 @@
 					type: "checkmark"
 				}
 				{
-					id: "1604D454AB3C6622"
-					observation_type: "block"
-					observe_type: 0
-					timer: 0L
-					to_observe: "minecraft:grass_block"
-					type: "observation"
+					dimension: "kubejs:sky_machine"
+					icon: {
+						components: {
+							"ftbquests:icon": "generatorgalore:block/copper_generator_top_on"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "177384C0089B0E6C"
+					type: "dimension"
 				}
 			]
 			x: -0.5d
@@ -839,6 +842,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["586C983C91B50E85"]
 			id: "7627CC4235C54853"
 			rewards: [
 				{
@@ -855,9 +859,18 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					count: 2
+					id: "74992C9B5A10BC17"
+					item: {
+						count: 1
+						id: "minecraft:dirt"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
-				dimension: "minecraft:overworld"
+				dimension: "kubejs:sky_machine"
 				id: "00280AC0B50F3A18"
 				type: "dimension"
 			}]

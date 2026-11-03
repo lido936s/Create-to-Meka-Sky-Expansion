@@ -1,6 +1,9 @@
 {
   "recent": {
     "ITEM": [
+      "kubejs:sky_machine_cake",
+      "create:dough",
+      "undergarden:underbeans",
       "mekanism:quantum_entangloporter",
       "telepastries:end_cake",
       "telepastries:nether_cake",
@@ -15,16 +18,14 @@
       "minecraft:bricks",
       "ironfurnaces:copper_furnace",
       "modern_industrialization:bronze_plate",
-      "mekanism:alloy_infused",
-      "modern_industrialization:bronze_machine_casing",
-      "mekanism:steel_casing",
-      "minecraft:birch_fence"
+      "mekanism:alloy_infused"
     ],
     "ITEM_TAG": [
       "c:storage_blocks/stick",
       "minecraft:coals"
     ],
     "FLUID": [
+      "undergarden:virulent_mix_source",
       "kubejs:end_cake_batter",
       "kubejs:nether_cake_batter",
       "kubejs:flowing_lost_cities_cake_batter",

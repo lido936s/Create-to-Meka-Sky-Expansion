@@ -1,0 +1,13 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"undergarden:blood_globule"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"undergarden:froststeel_nugget"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"undergarden:smogstem_boat"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:potion","components":{"minecraft:potion_contents":{"potion":"undergarden:virulent_resistance"},"create:potion_fluid_bottle_type":"regular"}},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"undergarden:virulent_mix_source"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"undergarden:raw_cloggrum"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"exdeorum:crook"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stone_hoe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:torch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sawmill:sawmill"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,23 @@
+{
+  "type": "cobblegengalore:blockgen",
+  "result": {
+    "id": "undergarden:shiverstone",
+    "count": 1
+  },
+  "speed": 3,
+  "left": {
+    "Name": "undergarden:virulent_mix"
+  },
+  "right": {
+    "Name": "minecraft:blue_ice"
+  },
+  "modifier": {
+    "Name": "undergarden:shiverstone"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ]
+}

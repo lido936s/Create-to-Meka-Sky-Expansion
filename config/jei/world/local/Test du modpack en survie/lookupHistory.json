@@ -1,0 +1,23 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"quark:deepslate_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"quark:blackstone_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modern_industrialization:steel_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"exdeorum:compressed_cobblestone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"undergarden:wigglewood_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"clayable:raw_clayed_iron"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"undergarden:roasted_underbeans"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"exdeorum:unfired_porcelain_crucible"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"exdeorum:porcelain_crucible"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ftbstuff:stone_cobblestone_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblegengalore:block_gen_stone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"undergarden:depthrock"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"undergarden:depthrock_pebble"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"kubejs:kjs/campfire_2","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"minecraft:stick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:torch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:campfire"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"undergarden:underbeans"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:coal"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

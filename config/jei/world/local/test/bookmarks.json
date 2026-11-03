@@ -18,6 +18,8 @@
   {"recipe":"undergarden:cloggrum_bucket","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
   {"ingredient":{"id":"undergarden:utherium_growth"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"undergarden:utheric_shard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"recipe":"undergarden:catalyst","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
-  {"recipe":"createqol:compacting/superheated_lava","recipeType":"create:packing","bookmarkType":"RECIPE"}
+  {"ingredient":{"id":"ftbstuff:netherite_cobblestone_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"extendedae:cobblestone_cell","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"undergarden:gloom_o_lantern","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"kubejs:undergarden_catalyst_transform","recipeType":"ae2:transform","bookmarkType":"RECIPE"}
 ]

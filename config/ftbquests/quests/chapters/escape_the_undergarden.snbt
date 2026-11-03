@@ -2,139 +2,156 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
 	filename: "escape_the_undergarden"
-	group: ""
+	group: "352B44F1DF3AA123"
 	id: "114D56D2C840D5EC"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7554C3916CF68D10"]
 			id: "55C71CAFAF087A66"
-			rewards: [
-				{
-					count: 8
-					id: "4FA37A2A9BD9C0CC"
-					item: {
-						count: 1
-						id: "undergarden:underbeans"
-					}
-					type: "item"
-				}
-				{
-					id: "118B175048FF5C8B"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					count: 16L
-					id: "3E899E5DCE635146"
-					item: { count: 1, id: "undergarden:smogstem_log" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "3DBA407F04332296"
-					item: { count: 1, id: "undergarden:cloggrum_ingot" }
-					type: "item"
-				}
-			]
-			x: -3.0d
+			rewards: [{
+				count: 2
+				id: "4FA37A2A9BD9C0CC"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04280DA6294D5C0E"
+				item: { count: 1, id: "undergarden:utherium_pickaxe" }
+				type: "item"
+			}]
+			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["55C71CAFAF087A66"]
-			id: "5D16C31AEFCD17C1"
+			id: "1A2B3C4D5E6F7010"
+			tasks: [{
+				count: 2L
+				id: "1A2B3C4D5E6F7011"
+				item: { count: 1, id: "undergarden:veil_mushroom" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "1A2B3C4D5E6F7020"
+			tasks: [{
+				id: "1A2B3C4D5E6F7021"
+				item: { count: 1, id: "undergarden:cloggrum_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "1A2B3C4D5E6F7030"
+			tasks: [{
+				id: "1A2B3C4D5E6F7031"
+				item: { count: 1, id: "undergarden:blood_globule" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "1A2B3C4D5E6F7040"
+			tasks: [{
+				id: "1A2B3C4D5E6F7041"
+				item: { count: 1, id: "undergarden:utherium_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "1A2B3C4D5E6F7050"
+			tasks: [{
+				count: 2L
+				id: "1A2B3C4D5E6F7051"
+				item: { count: 1, id: "undergarden:catalyst" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "1A2B3C4D5E6F7060"
+			tasks: [{
+				count: 2L
+				id: "1A2B3C4D5E6F7061"
+				item: { count: 1, id: "createaddition:cake_base_baked" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"55C71CAFAF087A66"
+				"1A2B3C4D5E6F7010"
+				"1A2B3C4D5E6F7020"
+				"1A2B3C4D5E6F7030"
+				"1A2B3C4D5E6F7040"
+				"1A2B3C4D5E6F7050"
+				"1A2B3C4D5E6F7060"
+			]
+			id: "1A2B3C4D5E6F7070"
+			tasks: [{
+				id: "1A2B3C4D5E6F7071"
+				item: { count: 1, id: "kubejs:sky_machine_cake" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2B3C4D5E6F7070"]
+			id: "4C6B403158F7BD4A"
+			tasks: [{
+				count: 15L
+				id: "1101757CABB88557"
+				item: { count: 1, id: "undergarden:cloggrum_block" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C6B403158F7BD4A"]
+			id: "00BFB6FA538226E3"
 			rewards: [{
-				id: "0A053CB89C43DBB9"
+				id: "7809A1A96040158D"
 				type: "xp"
 				xp: 100
 			}]
 			tasks: [{
-				count: 10L
-				id: "1E0AA7B15248B405"
-				item: { count: 1, id: "undergarden:depthrock_bricks" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -2.5d
-		}
-		{
-			dependencies: [
-				"5D16C31AEFCD17C1"
-				"55C71CAFAF087A66"
-				"05F6F63C8A42C38D"
-			]
-			id: "4808C64AC269F3FD"
-			rewards: [
-				{
-					id: "5EA08A290F0CB34B"
-					item: {
-						count: 1
-						id: "undergarden:regalium_crystal"
+				icon: {
+					components: {
+						"ftbquests:icon": "modern_industrialization:block/machines/centrifuge/overlay_top_active"
 					}
-					type: "item"
+					id: "ftbquests:custom_icon"
 				}
-				{
-					id: "09A9EFB0112B97F2"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "4FAC91AB0971068D"
-				item: { count: 1, id: "undergarden:catalyst" }
-				type: "item"
+				id: "677430C6C240AF02"
+				type: "custom"
 			}]
-			x: 0.5d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["4808C64AC269F3FD"]
-			id: "2D6B12ABF0688254"
-			rewards: [
-				{
-					id: "68EF318331F7C0D8"
-					item: {
-						count: 1
-						id: "minecraft:diamond"
-					}
-					type: "item"
-				}
-				{
-					id: "7C3A0CC9C64C6337"
-					type: "xp"
-					xp: 500
-				}
-			]
-			shape: "star"
+			dependencies: ["00BFB6FA538226E3"]
+			id: "586C983C91B50E85"
+			rewards: [{
+				id: "033B27986962F41D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "2D295F05FE49C848"
+				dimension: "kubejs:sky_machine"
+				id: "6A4124AAA8085932"
 				type: "dimension"
 			}]
-			x: 4.5d
+			x: 10.5d
 			y: 0.0d
-		}
-		{
-			id: "05F6F63C8A42C38D"
-			tasks: [{
-				id: "04FBCB95C2512A2A"
-				item: { count: 1, id: "undergarden:cloggrum_bucket" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 1.5d
-		}
-		{
-			id: "7554C3916CF68D10"
-			tasks: [{
-				id: "723D8D36AEC26C2F"
-				type: "checkmark"
-			}]
-			x: -4.0d
-			y: 2.0d
 		}
 	]
 }

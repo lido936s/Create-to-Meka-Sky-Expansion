@@ -1,0 +1,11 @@
+[
+  {"version":2},
+  {"recipe":"undergarden:gloomgourd_pie","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"undergarden:utherium_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"undergarden:regalium_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"undergarden:raw_cloggrum"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"undergarden:utherium_pickaxe","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"quark:building/crafting/ladders/oak_ladder","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"sawmill:sawmill","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"undergarden:pebbles_to_depthrock","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+]

@@ -1,0 +1,23 @@
+{
+  "type": "cobblegengalore:blockgen",
+  "result": {
+    "id": "undergarden:tremblecrust",
+    "count": 1
+  },
+  "speed": 3,
+  "left": {
+    "Name": "undergarden:virulent_mix"
+  },
+  "right": {
+    "Name": "minecraft:lava"
+  },
+  "modifier": {
+    "Name": "undergarden:tremblecrust"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ]
+}

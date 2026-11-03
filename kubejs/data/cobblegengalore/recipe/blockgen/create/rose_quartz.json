@@ -1,0 +1,18 @@
+{
+  "type": "cobblegengalore:blockgen",
+  "result": {
+    "id": "create:rose_quartz_block",
+    "count": 1
+  },
+  "speed": 2,
+  "left": {
+    "Name": "productivemetalworks:molten_quartz"
+  },
+  "right": {
+    "Name": "create_enchantment_industry:experience"
+  },
+  "modifier": {
+    "Name": "create:rose_quartz_tiles"
+  },
+  "consumeRight": true
+}

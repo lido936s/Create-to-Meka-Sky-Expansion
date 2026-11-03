@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"kubejs:sky_machine_cake_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:sky_machine_cake"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
