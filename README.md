@@ -1,45 +1,28 @@
-# 🌌 Create to Meka: Sky Expansion - Guide d'installation
+# 🌌 Create to Meka: Sky Expansion
 
-Bienvenue dans **Create to Meka: Sky Expansion** ! Ce guide vous explique pas à pas comment installer le modpack pour commencer votre aventure Skyblock technique.
+**Minecraft 1.21.1** | **NeoForge 21.1.238**
 
----
-
-## 🚀 Étape 1 : Télécharger un Launcher
-Pour jouer facilement, nous vous conseillons d'utiliser un launcher moderne. Le plus recommandé est **Prism Launcher** (léger et open-source), mais vous pouvez aussi utiliser **CurseForge** ou **Modrinth**.
-
-* [Télécharger Prism Launcher](https://prismlauncher.org)
-* [Télécharger CurseForge](https://curseforge.com)
+Bienvenue dans **Create to Meka: Sky Expansion**, un modpack Skyblock expert qui combine l'ingénierie mécanique de *Create* et l'automatisation de *Mekanism*, rythmées par *KubeJS* et *Modern Industrialization*.
 
 ---
 
-## 📥 Étape 2 : Installer le Modpack
+## 🌟 Nouveautés de la v1.0.3
 
-### Option A : Via Prism Launcher (Recommandé)
-1. Ouvrez Prism Launcher et cliquez sur **Ajouter une instance** (en haut à gauche).
-2. Choisissez l'onglet **GitHub** ou **Importer**.
-3. Copiez-collez l'URL de ce dépôt : `https://github.com`
-4. Le launcher va automatiquement configurer la bonne version de Minecraft (1.21.1) et de NeoForge.
-5. *(Si la liste des mods est incluse)* : Cliquez sur **Télécharger les mods manquants** si le launcher vous le demande.
-
-### Option B : Installation Manuelle (CurseForge / Autre)
-1. Créez un profil personnalisé sur votre launcher en sélectionnant :
-   * **Version de Minecraft :** 1.21.1
-   * **Chargeur de mods :** NeoForge
-   * **Version de NeoForge :** 21.1.238
-2. Téléchargez ce code GitHub en cliquant sur le bouton vert **Code > Download ZIP** en haut de cette page.
-3. Extrayez le contenu du ZIP.
-4. Faites un clic droit sur votre profil dans votre launcher, cliquez sur **Ouvrir le dossier** (*Open Folder*).
-5. Glissez-y les dossiers `config`, `defaultconfigs`, `kubejs` et `schematics` que vous venez de télécharger.
+- **Progression et Crafts :** Refonte des générateurs de ressources Skyblock, introduction de l'assemblage séquencé pour l' *Infused Porcelain* et intégration des bocaux *FTB Stuff Jar Machine*.
+- **Industrie & Carrières :** La carrière Modern Industrialization accepte désormais les foreuses de *Create* et *Immersive Engineering* (taux de casse de 4 % pour la *Brass Drill*). Ajout du minerai `andesite_alloy_ore` transformable en *Andesite Alloy* et pépites de zinc via le Macerator.
+- **Agriculture :** Recettes automatisées pour *Pam's HarvestCraft* et compatibilité des sols avec *The Undergarden* via *Botany Pots*.
 
 ---
 
-## ⚙️ Étape 3 : Configuration recommandée avant de lancer
-Pour éviter les ralentissements ou les crashs dus aux mods techniques (Create & Mekanism) :
+## 🚀 Guide d'Installation Rapide
 
-* **Mémoire RAM :** Allouez un **minimum de 6 Go** de RAM (8 Go recommandés) dans les paramètres de votre launcher.
-* **Java :** Assurez-vous que votre launcher utilise bien **Java 21** (requis pour Minecraft 1.21.1).
+> ⚠ **Prérequis critique :** Le modpack exige la version exacte de **NeoForge 21.1.238** sous **Java 21** avec **6 Go de RAM minimum** (8 Go recommandés).
+
+1. **Option Automatique (Prism Launcher) :** Téléchargez Prism Launcher, créez une instance en important l'URL du dépôt `https://github.com` et laissez l'outil configurer Minecraft 1.21.1 et NeoForge.
+2. **Option Manuelle :** Créez un profil NeoForge (21.1.238) sur votre launcher, téléchargez le ZIP du dépôt GitHub, puis décompressez les dossiers `config`, `defaultconfigs`, `kubejs` et `schematics` dans le dossier de votre instance.
 
 ---
 
-## 🐛 Un bug ou un crash ?
-Si le jeu plante ou qu'une recette est cassée, merci d'ouvrir un ticket dans l'onglet [Issues](https://github.com/issues) de ce GitHub en décrivant le problème et en fournissant votre fichier de crash (`crash-reports/`).
+## 🐛 Support
+
+Pour tout bug, crash ou problème de recette, ouvrez un ticket dans l'onglet [Issues du dépôt GitHub](https://github.com/issues) en joignant vos logs.
