@@ -232,6 +232,54 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0000000000001003"]
+			id: "5A3C7E19B2D40F61"
+			rewards: [{
+				id: "7C2E9A5B1D3F4086"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1B8D4F2A6C0E9375"
+				item: { count: 1, id: "modern_industrialization:steam_quarry" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A3C7E19B2D40F61"]
+			id: "56B3BF2A5AA8239C"
+			rewards: [{
+				id: "780B91CCA67ED99A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3D6A0F8B2E1C5947"
+				item: { count: 1, id: "create_sa:brass_drill_head" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000001007"]
+			id: "78AAF8FD345C624C"
+			rewards: [{
+				id: "2B7D5F1A9C3E4608"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "6F0B3D9A5E2C1874"
+				item: { count: 1, id: "modern_industrialization:electric_quarry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
 			dependencies: ["0000000000001001"]
 			id: "34D3CA1A9873ABC6"
 			tasks: [{

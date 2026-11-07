@@ -70,6 +70,7 @@ immersiveengineering:mineral_veins
 immersiveengineering:nickel
 immersiveengineering:silver
 immersiveengineering:uranium
+kubejs:andesite_alloy_ore
 lostcities:lostcities
 lostcities:spheres
 mekanism:ore_fluorite_buried

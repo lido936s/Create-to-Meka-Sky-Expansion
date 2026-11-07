@@ -1,0 +1,12 @@
+ServerEvents.recipes(event => {
+    // Quarry vapeur + électrique (même type de recette, 4 EU/t = limite de la vapeur)
+    event.recipes.modern_industrialization.quarry(4, 600)
+        // 0.04 = 4 % de chance de casser la drill par cycle (mets 0 pour qu'elle ne s'use jamais)
+        .itemIn("create_sa:brass_drill_head", 0.04)
+        .itemOut("create:zinc_ore", 0.4)
+        .itemOut("minecraft:copper_ore", 0.3)
+        .itemOut("minecraft:iron_ore", 0.3)
+        .itemOut("modern_industrialization:tin_ore", 0.25)
+        .itemOut("minecraft:gold_ore", 0.1)
+        .itemOut("kubejs:andesite_alloy_ore", 0.3)
+})

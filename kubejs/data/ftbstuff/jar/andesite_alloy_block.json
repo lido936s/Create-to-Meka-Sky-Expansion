@@ -1,0 +1,21 @@
+{
+  "type": "ftbstuff:jar",
+  "input_fluids": [
+    {
+      "amount": 500,
+      "fluid": "kubejs:molten_andesite_alloy"
+    },
+    {
+      "amount": 250,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "output_items": [
+    {
+      "count": 1,
+      "id": "create:andesite_alloy_block"
+    }
+  ],
+  "temperature": "chilled",
+  "time": 150
+}

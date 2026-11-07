@@ -4,35 +4,7 @@
   "defaultTargetFile": "sky_machine_cake_recipe.js",
   "exportComments": true,
   "reloadOnExport": false,
-  "recipes": [
-    {
-      "uid": "ed964caf-2fda-4494-b079-ae0521576216",
-      "type": "kjsgen:create_mixing",
-      "targetFile": "sky_machine_cake_recipe.js",
-      "slots": {
-        "in0": {
-          "kind": "FLUID",
-          "id": "undergarden:virulent_mix_source"
-        },
-        "in1": {
-          "kind": "ITEM",
-          "id": "undergarden:underbeans",
-          "count": 8
-        },
-        "in2": {
-          "kind": "ITEM",
-          "id": "create:dough"
-        },
-        "output": {
-          "kind": "ITEM",
-          "id": "kubejs:sky_machine_cake"
-        }
-      },
-      "params": {
-        "heat": "heated"
-      }
-    }
-  ],
+  "recipes": [],
   "removals": [
     {
       "uid": "16eac144-c202-4376-82ca-5df86dff7600",

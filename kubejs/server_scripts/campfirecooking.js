@@ -1,7 +1,8 @@
 // remove campfire cooking conflit with mod central heater > 'central_heater:burnable_campfire', 'central_heater:burnable_soul_campfire'
 ServerEvents.recipes(event => {
-    event.remove({ output: 'central_heater:burnable_campfire' }),
-    event.remove({ output: 'central_heater:burnable_soul_campfire' })
+    ['central_heater:burnable_campfire', 'central_heater:burnable_soul_campfire'].forEach(id => {
+        if (Item.exists(id)) event.remove({ output: id });
+    });
 });
 // Stick -> Torche sur feu de camp
 ServerEvents.recipes(event => {

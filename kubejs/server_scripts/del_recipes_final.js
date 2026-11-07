@@ -24,7 +24,6 @@ ServerEvents.recipes(event => {
         'create:andesite_alloy',
         'brickfurnace:brick_furnace',
         'ftbstuff:stone_cobblestone_generator',
-        'srgens:basic_ore_gen',
         'exdeorum:unfired_porcelain_crucible',
         '#ftbstuff:water_strainer',
         'create:blaze_cake',
@@ -34,7 +33,10 @@ ServerEvents.recipes(event => {
     ];
 
     itemsToRemove.forEach(item => {
-        event.remove({ output: item });
+        // les tags (#...) sont acceptés tels quels ; les items absents sont ignorés sans warn
+        if (item.startsWith('#') || Item.exists(item)) {
+            event.remove({ output: item });
+        }
     });
 
 });

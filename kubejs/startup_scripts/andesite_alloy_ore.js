@@ -1,0 +1,12 @@
+StartupEvents.registry('block', event => {
+    event.create('andesite_alloy_ore')
+        .displayName('Andesite Alloy Ore')
+        .soundType('stone')
+        .hardness(3.0)
+        .resistance(3.0)
+        .requiresTool(true)
+        .tagBlock('minecraft:mineable/pickaxe')
+        .tagBlock('minecraft:needs_stone_tool')
+        .tagBlock('c:ores')
+        .tagItem('c:ores')
+})

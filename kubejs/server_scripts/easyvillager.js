@@ -40,10 +40,6 @@ event.shaped(
         E: 'ironfurnaces:copper_furnace',
 }); 
 });
-// Remove seed villager recipe
-ServerEvents.recipes(event => {
-    event.remove({ output: 'havenanimalseeds:seed_villager' })
-})
 
 // Add recipe for easy_villagers:villager
 ServerEvents.recipes(event => {

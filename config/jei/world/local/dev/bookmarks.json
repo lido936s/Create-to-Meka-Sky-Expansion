@@ -1,0 +1,11 @@
+[
+  {"version":2},
+  {"recipe":"immersiveengineering:crafting/rs_engineering","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"pamhc2crops:tropicalgarden"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"create:kjs/srgens_refined_ore_gen","recipeType":"create:sequenced_assembly","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"minecraft:hanging_roots"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"create_sa:brass_drill_head_recipe","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"ftbstuff:jar","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"ftbstuff:auto_processing_block","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"modern_industrialization:oil/distillation/ethanol_from_sugar","recipeType":"modern_industrialization:distillery","bookmarkType":"RECIPE"}
+]

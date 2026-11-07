@@ -118,27 +118,6 @@
 		}
 		{
 			dependencies: ["4C6B403158F7BD4A"]
-			id: "00BFB6FA538226E3"
-			rewards: [{
-				id: "7809A1A96040158D"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:icon": "modern_industrialization:block/machines/centrifuge/overlay_top_active"
-					}
-					id: "ftbquests:custom_icon"
-				}
-				id: "677430C6C240AF02"
-				type: "custom"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["00BFB6FA538226E3"]
 			id: "586C983C91B50E85"
 			rewards: [{
 				id: "033B27986962F41D"

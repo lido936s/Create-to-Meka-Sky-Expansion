@@ -25,7 +25,7 @@
 			}
 			"ftbessentials:trash_can": {
 				enabled: true
-				x: 0
+				x: 1
 				y: 2
 			}
 			"ftbteams:team_lives": {
@@ -45,13 +45,18 @@
 			}
 			"ftblibrary:config": {
 				enabled: true
-				x: 1
+				x: 2
 				y: 2
 			}
 			"ftblibrary:toggle/day": {
 				enabled: true
 				x: 1
 				y: 0
+			}
+			"createultimine:config": {
+				enabled: true
+				x: 0
+				y: 2
 			}
 			"ftblibrary:toggle/rain": {
 				enabled: true

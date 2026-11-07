@@ -20,6 +20,7 @@
 	chapter.46922448110A6E7C.title: "Escaping the Depths"
 	chapter.4D6C69646F313233.title: "🌌 Kinetic Awakening in the Undergarden"
 	chapter.4F17A16E3B9C2D5A.title: "Steam > EV Age "
+	chapter.4F7B3C2A1E8D90AB.title: "🌌 The Industrial Era: Immersive Engineering"
 	chapter.509DA976E8213C84.title: "Escaping the Depths"
 	chapter.5BC9894A40ACADB7.title: "Mekanism Advanced"
 	chapter.5F49108303380E08.title: "Create Elite"
@@ -31,6 +32,7 @@
 	chapter.6E9A93F9CC99FEEC.title: "Basic Machining"
 	chapter.73C8D82682964D54.title: "Food"
 	chapter.78883CA1DEE1FF8F.title: "Escaping the Depths"
+	chapter.7D328164C05CA422.title: "Immersive Engineering"
 	chapter_group.26669B6949684866.title: "End Game"
 	chapter_group.2C73944DD8D5E480.title: "3-Meka and RF"
 	chapter_group.352B44F1DF3AA123.title: "Undergarden"
@@ -146,6 +148,11 @@
 	quest.0BC96F358234A9A5.quest_desc: ["Retrieve flint from gravel in any mesh"]
 	quest.0BC96F358234A9A5.quest_subtitle: "Chop Flint any Mesh"
 	quest.0D6C0BA1C3D05426.quest_subtitle: "Collecting Item "
+	quest.0D7CE6A5DA26F4EC.quest_desc: [
+		"Double your ore output."
+		"Assemble the **Crusher** multiblock with steel components and power it with your new network."
+	]
+	quest.0D7CE6A5DA26F4EC.title: "Crusher"
 	quest.0E413BB761ECCCD7.quest_desc: [
 		"A huge thank you to L3GL0N__ for his invaluable help! 💜"
 		""
@@ -171,6 +178,8 @@
 	quest.0FA586A8BBA2FB74.title: "Return to the Light"
 	quest.0FC0DF0DA66063E8.quest_desc: ["{image:generatorgalore:block/copper_generator_front width:100 height:100 align:center}"]
 	quest.0FC0DF0DA66063E8.quest_subtitle: "Enter SU converter RF"
+	quest.102A4B6C8D0E1F2A.quest_desc: ["Welcome to heavy industry. The Engineer's Hammer is the key to forming your first multi-block machines and configuring your wiring."]
+	quest.102A4B6C8D0E1F2A.title: "The First Tool"
 	quest.108F5A000FF1C509.quest_subtitle: "Automate Iron"
 	quest.1110A9C3C9124E8F.quest_subtitle: "Tier 1 Proccesing "
 	quest.1120DD0E98DC23EF.quest_subtitle: "Craft Press Meka"
@@ -213,6 +222,11 @@
 	quest.1A2B3C4D5E6F7070.quest_desc: ["Combine every ingredient to craft the Sky Machine Cake and find your way out of the Undergarden."]
 	quest.1A2B3C4D5E6F7070.quest_subtitle: "Assembly Cake "
 	quest.1A2B3C4D5E6F7070.title: "The Sky Machine Cake"
+	quest.1A9270011B8B3B6D.quest_desc: [
+		"Immersive Engineering and Create share the same metal economy."
+		"Make a **Brass Ingot** with Create. Brass, bronze and steel are unified across the pack."
+	]
+	quest.1A9270011B8B3B6D.title: "Brass from Create"
 	quest.1AC127490F48DC8B.quest_subtitle: "Materials essentials expanding Energy"
 	quest.1C1E3DDD3FCF5477.quest_desc: ["Speeding grow time > Harvesting fast "]
 	quest.1C1E3DDD3FCF5477.quest_subtitle: "Crafting Stone Watering Can"
@@ -227,8 +241,15 @@
 	quest.1EEB57CE332C412E.quest_desc: ["Craft the components for the advanced resource generator, but be warned, it will be even harder because it will require a little bit of energy and automating parts of the machine."]
 	quest.1EEB57CE332C412E.quest_subtitle: "Semi = Manualy Automate"
 	quest.1EEB57CE332C412E.title: "Advanced Elements"
+	quest.1F0860400A753410.quest_desc: [
+		"Build the Coke Oven and bake coal into **Coal Coke**."
+		"It burns longer than coal and is the key fuel of your steel line."
+	]
+	quest.1F0860400A753410.title: "Coal Coke"
 	quest.1FA81451E770BD2E.quest_subtitle: "Craft Flint Mesh"
 	quest.1FC61986F8E88FDB.quest_subtitle: "Craft Shaft"
+	quest.203B5C7D9E1F3A4B.quest_desc: ["Build a Coke Oven by forming a 3x3x3 structure of Coke Bricks, then right-click the center with your hammer. This allows you to obtain Coal Coke and Creosote Oil."]
+	quest.203B5C7D9E1F3A4B.title: "The Coal Revolution"
 	quest.20A7E937479EC1BB.quest_subtitle: "A basic resource generator to finally get started on more interesting things."
 	quest.2101B2CCE11A9993.quest_desc: ["Before you can even think about leaving, you must harvest the basic materials of this dimension to craft tools capable of mining the portal components."]
 	quest.2101B2CCE11A9993.title: "Survive and Equip"
@@ -257,6 +278,11 @@
 	quest.27CC3F490FCABA95.quest_desc: ["Important for cooking the ores faster"]
 	quest.27CC3F490FCABA95.quest_subtitle: "Craft Blast Furnace"
 	quest.2812CBE211184F48.quest_subtitle: "Craft Andesite Alloy"
+	quest.283A445C6FA06188.quest_desc: [
+		"Feed the Blast Furnace with iron and Coal Coke to forge your first **Steel Ingot**."
+		"Steel is unified with the other mods in this pack: any steel will do in recipes."
+	]
+	quest.283A445C6FA06188.title: "Steel Ingot"
 	quest.296ADC466D214503.quest_desc: [
 		"Note that this machine requires RF (Redstone Flux), therefore energy, so a way to generate energy must be found."
 		""
@@ -266,6 +292,11 @@
 	quest.2987DBC1C422EED5.quest_subtitle: "Crafting Decorated Pot"
 	quest.29E841EBF65EFE6C.quest_subtitle: "Create Tiny Foundry"
 	quest.29E841EBF65EFE6C.title: "Melting No Lava"
+	quest.2A7EDD9A5C22FEFB.quest_desc: [
+		"Immersive Engineering starts with a good set of tools."
+		"Craft the **Engineer's Hammer** to build multiblock structures and shape plates, and the **Wire Cutters** to cut cables."
+	]
+	quest.2A7EDD9A5C22FEFB.title: "Engineer's Toolkit"
 	quest.2AEF69A311759695.quest_subtitle: "Automate Zinc"
 	quest.2B55C93C85C275D8.quest_desc: ["Calculate and prepare with everything you've done since the beginning of the modpack to enter the heart of the nexus which is applied"]
 	quest.2B55C93C85C275D8.quest_subtitle: "Craft Advanced Auto Crafting Table"
@@ -282,6 +313,8 @@
 	]
 	quest.2D6B12ABF0688254.quest_subtitle: "Build Portal"
 	quest.2D6B12ABF0688254.title: "Return to the Light"
+	quest.2E047CEF41EC9D93.quest_desc: ["Connectors let wires carry energy from generators to machines."]
+	quest.2E047CEF41EC9D93.title: "LV Connector"
 	quest.2F2A5B0EC006F419.quest_desc: ["A portal frame is nothing without its ignition. In the Overworld, you used a flint and steel. Here, you need an unstable catalyst."]
 	quest.2F2A5B0EC006F419.title: "The Spark of Life"
 	quest.2F45FA849059C915.quest_subtitle: "Okay, let's go, no more stones!"
@@ -293,6 +326,8 @@
 	quest.2FB07AD6B486952F.title: "Direct Large Gearwheel"
 	quest.3025F27F83811C1E.quest_desc: ["Automate Wood farming tiny "]
 	quest.3025F27F83811C1E.quest_subtitle: "Craft Mechanical Saw"
+	quest.304C6D8E0F2A4B5C.quest_desc: ["Combine your bricks with Blaze powder or Nether materials to create the Blast Furnace. Input iron and Coal Coke into it to forge your first steel ingots."]
+	quest.304C6D8E0F2A4B5C.title: "The Steel Age"
 	quest.3110CBA47B90313C.quest_subtitle: "Very Best Cobblestone Generator"
 	quest.312A3C0AE62E6B3A.quest_subtitle: "Getting Cobblestones"
 	quest.3248DA233E1CF6B6.quest_desc: ["A portal frame is nothing without its ignition. In the Overworld, you used a flint and steel. Here, you need an unstable catalyst."]
@@ -334,11 +369,18 @@
 	quest.3E2CE74FCDDB41FE.quest_subtitle: "Craft Laser"
 	quest.3E35A382C6C69559.quest_subtitle: "Matérials Foundry "
 	quest.3E625F88EC2F8481.quest_subtitle: "Automate Nether Star"
+	quest.3E7948FF7103A2F6.quest_desc: [
+		"Time to get serious about steel."
+		"Craft the **Blast Bricks** and assemble the Blast Furnace multiblock."
+	]
+	quest.3E7948FF7103A2F6.title: "Blast Furnace Bricks"
 	quest.3ED9300C0B509124.quest_desc: ["&eNote that several are needed to cover all the singularities."]
 	quest.3ED9300C0B509124.quest_subtitle: "Crafting Any and Automate Singularity"
 	quest.3F2405C53882CF24.quest_desc: ["Place tree leaves in a sieve to increase the chances of growing tree seedlings."]
 	quest.3F2405C53882CF24.quest_subtitle: "Using Sieve"
 	quest.3F9DB751F46DF954.quest_subtitle: "Basic Burner"
+	quest.405D7E9F1A3B5C6D.quest_desc: ["Treat wood with Creosote Oil to craft posts and start manipulating electricity (Flux/RF). Craft a kinetic connector to link Create's kinetic stress into usable energy."]
+	quest.405D7E9F1A3B5C6D.title: "First Watts"
 	quest.414E48C86582D086.quest_subtitle: "important for making advanced pipes"
 	quest.426005AB18C32F5C.quest_subtitle: "Craft Hopper"
 	quest.43264EC705908AA0.quest_subtitle: "Craft Nexus Managing "
@@ -400,6 +442,8 @@
 	quest.4E8901C5AFD0E6C8.title: "The Spark of Life"
 	quest.4F2C736CCD250F47.quest_subtitle: "Craft Brass Sifter"
 	quest.4F47434111D46302.quest_subtitle: "Infinity Water"
+	quest.506E8F0A2B4C6D7E.quest_desc: ["Steel and Power finally allow you to design complex components like the Light Engineering Block. An indispensable step before transitioning to Mekanism technologies."]
+	quest.506E8F0A2B4C6D7E.title: "Towards Advanced Automation"
 	quest.50E9E8304E054942.quest_subtitle: "Craft CogWheel with Curving Press "
 	quest.512DF0101A9D8598.quest_subtitle: "get 21 logs"
 	quest.512DF0101A9D8598.title: "Getting Wood"
@@ -407,12 +451,29 @@
 	quest.54EAF749282360AF.quest_subtitle: "Easy Crafting Table "
 	quest.554BF3A7E71E2EB3.quest_desc: ["Before you can even think about leaving, you must harvest the basic materials of this dimension to craft tools capable of mining the portal components."]
 	quest.554BF3A7E71E2EB3.title: "Survive and Equip"
+	quest.559D52E068B44616.quest_desc: [
+		"Use the Hammer or a Metal Press to turn ingots into **Steel Plates**."
+		"Plates are the backbone of most advanced machines."
+	]
+	quest.559D52E068B44616.title: "Steel Plates"
 	quest.55C71CAFAF087A66.quest_desc: ["Before you can even think about leaving, you must harvest the basic materials of this dimension to craft tools capable of mining the portal components."]
 	quest.55C71CAFAF087A66.quest_subtitle: "Best Pickaxe Undergarden mining ressource neccesearly "
 	quest.55C71CAFAF087A66.title: "Survive and Equip"
 	quest.55E1188A9C66EC0A.quest_desc: ["{image:minecraft:block/furnace_front_on width:100 height:100 align:center}"]
 	quest.55E1188A9C66EC0A.quest_subtitle: "start with the branch of the stone"
+	quest.5699A8F7AB4B9697.quest_desc: [
+		"Turn rotation into electricity."
+		"Place the **Dynamo** next to a Create rotation source or a Windmill to generate Flux."
+	]
+	quest.5699A8F7AB4B9697.title: "Dynamo"
 	quest.569B539EE92333BA.quest_subtitle: "Chop Gold"
+	quest.56B3BF2A5AA8239C.quest_desc: [
+		"The quarry needs a drill to work. Craft a &6Brass Drill Head&r and put it in the quarry's input slot."
+		""
+		"It works in both the Steam and the Electric Quarry."
+	]
+	quest.56B3BF2A5AA8239C.quest_subtitle: "A Create-flavoured drill for the quarry."
+	quest.56B3BF2A5AA8239C.title: "Brass Drill"
 	quest.57D2DD7BBA2E8FBE.quest_subtitle: "Preparate Automate Fully"
 	quest.586C983C91B50E85.quest_subtitle: "You have finally entered the perfect dimension to begin your epic adventure of setting up automated machinery."
 	quest.5871BAC430B494FA.quest_desc: ["Before you can even think about leaving, you must harvest the basic materials of this dimension to craft tools capable of mining the portal components."]
@@ -423,6 +484,13 @@
 	quest.5A08410768858ADE.title: "Craft Stone Hoe"
 	quest.5A1EC6384E679318.quest_subtitle: "Andesite Generator"
 	quest.5A1EC6384E679318.title: "Crafting Mechanical Extruder"
+	quest.5A3C7E19B2D40F61.quest_desc: [
+		"The &bSteam Quarry&r from Modern Industrialization mines a whole area for you, with no need to dig by hand."
+		""
+		"Feed it a &adrill&r and steam, and it will produce ores on its own."
+	]
+	quest.5A3C7E19B2D40F61.quest_subtitle: "Dig deeper, automatically."
+	quest.5A3C7E19B2D40F61.title: "Steam Quarry"
 	quest.5A3CD53BC423F25D.quest_subtitle: "Automate Netherrack"
 	quest.5A81A2ECCB3C4C2A.quest_subtitle: "Very Gift Zone"
 	quest.5A9D443C53F7DDF8.quest_subtitle: "Craft Fluxduct"
@@ -536,11 +604,21 @@
 	quest.6F83597D0D235EB9.title: "The Spark of Life"
 	quest.73B804992CE046DC.quest_desc: ["You need to leave the Undergarden to get started—no cheating, of course. Most importantly, do not build the standard portal using a catalyst; instead, follow the quests."]
 	quest.73B804992CE046DC.quest_subtitle: "warning"
+	quest.74B049A1ACEEC775.quest_desc: [
+		"Steel needs a clean, hot fuel: **Coal Coke**."
+		"Craft the **Coke Bricks** to build the Coke Oven multiblock."
+	]
+	quest.74B049A1ACEEC775.title: "Coke Oven Bricks"
 	quest.74E48C999E614510.quest_desc: [
 		""
 		"{image:exdeorum:block/dust width:100 height:100 align:center}"
 	]
 	quest.74E48C999E614510.quest_subtitle: "Very nice Generate Primary Materials to stone types "
+	quest.74F94415CFC26842.quest_desc: [
+		"Time to move power. Craft a **Copper Wire Coil** (LV cable)."
+		"Use the Wire Cutters to cut it and connectors to link machines."
+	]
+	quest.74F94415CFC26842.title: "Copper Wire Coil"
 	quest.7554C3916CF68D10.quest_subtitle: "To leave the Undergarden and get to the interesting parts, you need to craft certain items in order to unlock the Overworld."
 	quest.7580EB225CBDA4CB.quest_desc: [
 		"Depthrock is the omnipresent stone found throughout this dimension."
@@ -561,6 +639,18 @@
 	quest.7744218BBDBB3D78.quest_subtitle: "Craft Press"
 	quest.776E8EA98D33416F.quest_subtitle: "Very High Automation "
 	quest.78301E91E0F32C0A.quest_subtitle: "Welcome to Enter Thermal "
+	quest.78AAF8FD345C624C.quest_desc: [
+		"The &bElectric Quarry&r uses the exact same structure as the Steam Quarry, but runs on electricity."
+		""
+		"Hook it up to an MV power source and let it work."
+	]
+	quest.78AAF8FD345C624C.quest_subtitle: "Same structure, more power."
+	quest.78AAF8FD345C624C.title: "Electric Quarry"
+	quest.78AB807892E8D766.quest_desc: [
+		"Combine metals the old-fashioned way."
+		"Craft the **Alloy Bricks** and build the Alloy Kiln multiblock."
+	]
+	quest.78AB807892E8D766.title: "Alloy Kiln"
 	quest.797EC015EA55CC67.quest_subtitle: "Craft Reaction Chamber"
 	quest.7A5A9793EFEE06AB.quest_desc: [
 		"{@pagebreak}"

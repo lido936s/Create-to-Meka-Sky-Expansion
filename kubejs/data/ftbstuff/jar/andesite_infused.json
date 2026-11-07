@@ -1,0 +1,27 @@
+{
+  "type": "ftbstuff:jar",
+  "input_items": [
+    {
+      "count": 2,
+      "item": "create:andesite_alloy"
+    },
+    {
+      "count": 1,
+      "item": "create:electron_tube"
+    }
+  ],
+  "input_fluids": [
+    {
+      "amount": 250,
+      "fluid": "kubejs:molten_andesite_alloy"
+    }
+  ],
+  "output_items": [
+    {
+      "count": 1,
+      "id": "kubejs:andesite_infused"
+    }
+  ],
+  "temperature": "superheated",
+  "time": 200
+}

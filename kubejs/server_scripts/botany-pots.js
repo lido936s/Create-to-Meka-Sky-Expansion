@@ -7,8 +7,6 @@ ServerEvents.recipes(event => {
   // 🔥 Si ton modpack utilise aussi les versions décoratives / avancées :
   event.remove({ output: 'botanypots:terracotta_hopper_botany_pot' });
 
-  // 🔥 Supprime les crafts des pots Botany Pots (toutes variantes)
-  event.remove({ output: 'botanypots:all_botany_pots' });
   
 });
 

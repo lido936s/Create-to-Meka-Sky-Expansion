@@ -1,0 +1,17 @@
+{
+  "type": "ftbstuff:jar",
+  "input_items": [
+    {
+      "count": 4,
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "output_fluids": [
+    {
+      "amount": 250,
+      "id": "kubejs:molten_cobblestone"
+    }
+  ],
+  "temperature": "superheated",
+  "time": 80
+}
