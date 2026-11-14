@@ -19,6 +19,8 @@ create_dimension:ore_netherite
 create_dimension:ore_quartz
 create_dimension:ore_redstone
 create_dimension:ore_zinc
+create_new_age:magnetite_block
+create_new_age:thorium_ore
 cursedearth:blessed_flower
 dimension_expansion:cobble_spikes
 dimension_expansion:cobble_spire

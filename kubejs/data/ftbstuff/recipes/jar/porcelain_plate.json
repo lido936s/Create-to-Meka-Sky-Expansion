@@ -1,0 +1,28 @@
+{
+  "type": "ftbstuff:jar",
+  "temperature": "hot",
+  "time": 120,
+  "input_items": [
+    {
+      "count": 2,
+      "tag": "c:dusts/brick"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "input_fluids": [
+    {
+      "amount": 250,
+      "fluid": "kubejs:molten_porcelain_clay"
+    }
+  ],
+  "output_items": [
+    {
+      "count": 2,
+      "id": "kubejs:porcelain_plate"
+    }
+  ],
+  "output_fluids": []
+}

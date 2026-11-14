@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PtP",
+    "tct",
+    "PIP"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "t": {
+      "tag": "minecraft:trapdoors"
+    },
+    "c": {
+      "tag": "c:chests"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "result": {
+    "id": "toms_storage:inventory_interface"
+  }
+}

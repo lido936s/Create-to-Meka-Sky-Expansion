@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PRP",
+    "ItI",
+    "PRP"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "t": {
+      "item": "toms_storage:storage_terminal"
+    }
+  },
+  "result": {
+    "id": "toms_storage:wireless_terminal"
+  }
+}

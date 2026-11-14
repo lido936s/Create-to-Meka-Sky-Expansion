@@ -1,0 +1,24 @@
+{
+  "type": "ftbstuff:jar",
+  "temperature": "hot",
+  "time": 100,
+  "input_items": [
+    {
+      "count": 4,
+      "item": "exdeorum:porcelain_clay_ball"
+    }
+  ],
+  "input_fluids": [
+    {
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "output_items": [],
+  "output_fluids": [
+    {
+      "amount": 1000,
+      "id": "kubejs:molten_porcelain_clay"
+    }
+  ]
+}

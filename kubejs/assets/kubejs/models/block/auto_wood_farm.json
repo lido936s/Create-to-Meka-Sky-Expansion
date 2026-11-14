@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "kubejs:block/auto_wood_farm_side",
+    "down": "kubejs:block/auto_wood_farm_bottom",
+    "up": "kubejs:block/auto_wood_farm_top",
+    "north": "kubejs:block/auto_wood_farm_side",
+    "south": "kubejs:block/auto_wood_farm_side",
+    "east": "kubejs:block/auto_wood_farm_side",
+    "west": "kubejs:block/auto_wood_farm_side"
+  }
+}

@@ -12,6 +12,7 @@
 				"6910A1F173A1B63F"
 				"5A3CD53BC423F25D"
 				"1BA15BE11E0390EF"
+				"473A96E665E37CE6"
 			]
 			id: "1EEB57CE332C412E"
 			rewards: [
@@ -58,6 +59,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["25C3D44B067513F5"]
 			id: "6910A1F173A1B63F"
 			tasks: [{
 				id: "71E8B187580A679E"
@@ -102,6 +104,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["25C3D44B067513F5"]
 			id: "5A3CD53BC423F25D"
 			rewards: [
 				{
@@ -140,6 +143,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["7001B12629193D60"]
 			id: "1BA15BE11E0390EF"
 			tasks: [{
 				id: "6AC4E68FDF512368"
@@ -177,7 +181,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["1BA15BE11E0390EF"]
+			dependencies: ["34BDD1B3546529FB"]
 			id: "74E48C999E614510"
 			rewards: [
 				{
@@ -211,6 +215,193 @@
 				type: "item"
 			}]
 			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"00F9138F05B847D5"
+				"2757D8CD4607A8D2"
+				"113BEA6B18FB794A"
+			]
+			id: "395C5E35269BECE6"
+			rewards: [{
+				id: "0CEB648988A8184F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2A32C8B3B696E3F4"
+				item: { count: 1, id: "sky_resource_generators:primitive_water_condenser" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"113BEA6B18FB794A"
+				"2757D8CD4607A8D2"
+			]
+			id: "7CAC2E4E0A0D9FAE"
+			rewards: [{
+				id: "314556A3642F8F26"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "323FBBAC82620E39"
+				item: { count: 1, id: "sky_resource_generators:random_seed_generator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"113BEA6B18FB794A"
+				"2757D8CD4607A8D2"
+			]
+			id: "744CD26AD386E6C1"
+			rewards: [{
+				id: "4D3377AD78305C69"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "24B55604223EB3BA"
+				item: { count: 1, id: "sky_resource_generators:random_sapling_generator" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6DB9BE5937328BFF"]
+			id: "6B260E0C33D2549C"
+			rewards: [{
+				id: "5AD919114A561BAC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C07C6126B4D29DE"
+				item: { count: 1, id: "sky_resource_generators:random_ore_generator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6DB9BE5937328BFF"]
+			id: "4F12DF473541EF54"
+			rewards: [{
+				id: "6A0B69A48F8FCC72"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5AA8852C04BAC558"
+				item: { count: 1, id: "sky_resource_generators:random_ore_placement_generator" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4DEDFCE3332B84FC"
+				"1DF55C46329A0BE6"
+				"6E04AB67D71303F5"
+			]
+			id: "10E03B1BDE2563A2"
+			rewards: [{
+				id: "4880ACE948183648"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "766D4B3F5F19C9FC"
+				item: { count: 1, id: "sky_resource_generators:primitive_lava_condenser" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2194C13A7EC7A3A1"
+				"1DF55C46329A0BE6"
+			]
+			id: "7EA9EDF7BE742B73"
+			rewards: [{
+				id: "65B977BD9C0A1208"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "4884A20A29FD0519"
+				item: { count: 1, id: "sky_resource_generators:raw_conversion_generator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6E04AB67D71303F5"
+				"1DF55C46329A0BE6"
+				"2194C13A7EC7A3A1"
+			]
+			id: "68DA41D5F0DFC692"
+			rewards: [{
+				id: "10FF397A947AB255"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "192F55560F825739"
+				item: { count: 1, id: "sky_resource_generators:simple_ore_placement_generator" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1BA15BE11E0390EF"
+				"304C6D8E0F2A4B5C"
+			]
+			id: "4A88C1975427A107"
+			rewards: [{
+				id: "7FCCF6BEF865E4F8"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "52E35DFAB90996A1"
+				item: { count: 1, id: "sky_resource_generators:simple_ore_generator" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1BA15BE11E0390EF"
+				"304C6D8E0F2A4B5C"
+			]
+			id: "69B05B9C915C2C36"
+			rewards: [{
+				id: "38419313C89A7DA4"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "14F1ABAACF41BEE9"
+				item: { count: 1, id: "sky_resource_generators:advanced_ore_generator" }
+				type: "item"
+			}]
+			x: 4.5d
 			y: -3.5d
 		}
 	]

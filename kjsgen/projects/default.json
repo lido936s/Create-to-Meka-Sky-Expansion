@@ -12,6 +12,20 @@
       "input": "",
       "mod": "",
       "recipeId": "telepastries:nether_cake"
+    },
+    {
+      "uid": "d0fcd9c0-0532-45d6-9f09-eb29d6d1e5eb",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "ftbstuff:netherite_cobblestone_generator"
+    },
+    {
+      "uid": "02064f06-9386-4a6e-868b-c3e0b0a1e121",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "modern_industrialization:oil/crude_oil"
     }
   ]
 }
