@@ -25,5 +25,14 @@
   {"ingredient":{"id":"exdeorum:dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"recipe":"kubejs:kjs/watercondenser_watercondenser","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
   {"ingredient":{"id":"minecraft:furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"recipe":"pickletweaks:mesh","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+  {"recipe":"pickletweaks:mesh","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"exdeorum:iron_mesh_from_flint_mesh","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"exdeorum:oak_compressed_sieve","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"toms_storage:crafting_terminal","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"toms_storage:storage_terminal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"toms_storage:inventory_cable","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"toms_storage:inventory_connector","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"kubejs:kjs/exdeorum_porcelain_clay_ball","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"minecraft:brick","recipeType":"minecraft:smelting","bookmarkType":"RECIPE"},
+  {"recipe":"exdeorum:unfired_porcelain_bucket","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
 ]

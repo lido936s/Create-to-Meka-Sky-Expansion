@@ -1,0 +1,28 @@
+{
+  "type": "ftbstuff:jar",
+  "temperature": "superheated",
+  "time": 160,
+  "input_items": [
+    {
+      "count": 4,
+      "item": "minecraft:andesite"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "input_fluids": [
+    {
+      "amount": 1000,
+      "fluid": "kubejs:molten_cobblestone"
+    }
+  ],
+  "output_items": [],
+  "output_fluids": [
+    {
+      "amount": 1000,
+      "id": "kubejs:molten_andesite_alloy"
+    }
+  ]
+}

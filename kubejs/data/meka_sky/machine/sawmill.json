@@ -1,0 +1,182 @@
+{
+    "name": {
+        "text": "Sawmill Multiblock",
+        "color": "gold"
+    },
+    "tooltips": [
+        "Scierie industrielle : fonctionne comme le mod Sawmill",
+        "Slot fantome 'Filtre' = item que tu veux obtenir",
+        "Consomme du charbon + 32 SU (32 RPM minimum)",
+        "Multibloc 3x3x3 en andesite casing",
+        {
+            "text": "Create to Meka: Sky Expansion",
+            "color": "aqua",
+            "italic": true
+        }
+    ],
+    "appearance": {
+        "block": "sawmill:sawmill",
+        "hardness": 3.0
+    },
+    "components": [
+        {
+            "type": "custommachinery:item",
+            "id": "input",
+            "mode": "input",
+            "config": {
+                "default": "input"
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "coal",
+            "mode": "input",
+            "whitelist": [
+                "#minecraft:coals"
+            ],
+            "config": {
+                "default": "input"
+            }
+        },
+        {
+            "type": "custommachinery:item_filter",
+            "id": "filter",
+            "mode": "none"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "out1",
+            "mode": "output",
+            "config": {
+                "default": "output"
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "out2",
+            "mode": "output",
+            "config": {
+                "default": "output"
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "out3",
+            "mode": "output",
+            "config": {
+                "default": "output"
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "out4",
+            "mode": "output",
+            "config": {
+                "default": "output"
+            }
+        },
+        {
+            "type": "custommachinery:contraption"
+        }
+    ],
+    "gui": [
+        {
+            "type": "custommachinery:background",
+            "width": 176,
+            "height": 166,
+            "texture": "custommachinery:textures/gui/base_background.png"
+        },
+        {
+            "type": "custommachinery:text",
+            "x": 8,
+            "y": 6,
+            "text": "Sawmill Multiblock"
+        },
+        {
+            "type": "custommachinery:config",
+            "x": 154,
+            "y": 4
+        },
+        {
+            "type": "custommachinery:slot",
+            "id": "input",
+            "x": 8,
+            "y": 24
+        },
+        {
+            "type": "custommachinery:text",
+            "x": 30,
+            "y": 29,
+            "text": "Bois (entree)"
+        },
+        {
+            "type": "custommachinery:slot",
+            "id": "filter",
+            "x": 8,
+            "y": 44
+        },
+        {
+            "type": "custommachinery:text",
+            "x": 30,
+            "y": 49,
+            "text": "Filtre = sortie voulue"
+        },
+        {
+            "type": "custommachinery:slot",
+            "id": "coal",
+            "x": 8,
+            "y": 64
+        },
+        {
+            "type": "custommachinery:text",
+            "x": 30,
+            "y": 69,
+            "text": "Charbon"
+        },
+        {
+            "type": "custommachinery:progress",
+            "x": 104,
+            "y": 46
+        },
+        {
+            "type": "custommachinery:status",
+            "x": 108,
+            "y": 66
+        },
+        {
+            "type": "custommachinery:text",
+            "x": 134,
+            "y": 22,
+            "text": "Sorties"
+        },
+        {
+            "type": "custommachinery:slot",
+            "id": "out1",
+            "x": 132,
+            "y": 34
+        },
+        {
+            "type": "custommachinery:slot",
+            "id": "out2",
+            "x": 150,
+            "y": 34
+        },
+        {
+            "type": "custommachinery:slot",
+            "id": "out3",
+            "x": 132,
+            "y": 52
+        },
+        {
+            "type": "custommachinery:slot",
+            "id": "out4",
+            "x": 150,
+            "y": 52
+        },
+        {
+            "type": "custommachinery:player_inventory",
+            "x": 8,
+            "y": 84
+        }
+    ]
+}

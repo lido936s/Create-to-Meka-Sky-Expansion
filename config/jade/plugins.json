@@ -184,6 +184,13 @@
   "portals": {
     "portal_name_provider": true
   },
+  "excompressum": {
+    "bait": true,
+    "auto_sieve": true,
+    "heavy_sieve": true,
+    "auto_hammer": true,
+    "wooden_crucible": true
+  },
   "apotheosis": {
     "adventure": true
   },

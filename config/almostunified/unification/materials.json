@@ -6,7 +6,12 @@
     "create",
     "immersiveengineering",
     "mekanism",
-    "modern_industrialization"
+    "modern_industrialization",
+    "allthecompressed",
+    "ftbstuff",
+    "exdeorum",
+    "excompressum",
+    "create_compressed"
   ],
   "priority_overrides": {},
   "stone_variants": [

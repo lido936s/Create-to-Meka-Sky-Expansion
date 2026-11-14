@@ -1,0 +1,10 @@
+ServerEvents.recipes(event => {
+    // Syntaxe : event.recipes.modern_industrialization.oil_drilling_rig(EU_par_tick, durée_en_ticks)
+    event.recipes.modern_industrialization.oil_drilling_rig(16, 200)
+        // Foret en entrée avec probabilité d'usure/consommation (0.04 = 4 % de chance d'être consommé)
+        .itemIn('create:mechanical_saw', 0.02)
+        // Fluide en sortie : ('id_du_fluide', quantité_en_mB)
+        .fluidOut('kubejs:liquid_wood', 500)
+        // Identifiant unique pour la recette (optionnel mais recommandé)
+        .id('kubejs:oil_drilling_rig/custom_wood_oil')
+})
